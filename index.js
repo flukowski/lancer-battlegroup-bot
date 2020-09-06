@@ -18,7 +18,7 @@ class SearchCommand extends Commando.Command {
       memberName: 'search',
       aliases: ['search', 'compendium'],
       description: 'Searches the Battlegroup compendium.',
-      patterns: [/\[\[(.+?)\]\]/],
+      patterns: [/\{\{(.+?)\}\}/],
       defaultHandling: false,
       throttling: false
     })
@@ -26,7 +26,7 @@ class SearchCommand extends Commando.Command {
   async run(msg) {
     console.log(msg.content)
     let targets = [];
-    const re = /\[\[(.+?)\]\]/g
+    const re = /\{\{(.+?)\}\}/g
     let matches;
     while ((matches = re.exec(msg.content)) != null) {
       targets.push(matches[1])
@@ -65,5 +65,5 @@ client.registry
 client.login(process.env.TOKEN)
 
 client.on('ready', () => {
-  client.user.setPresence({ activity: { name: 'BATTLEGROUP | use [[brackets]]' }, status: 'online' })
+  client.user.setPresence({ activity: { name: 'BATTLEGROUP | use {{brackets}}' }, status: 'online' })
 })
