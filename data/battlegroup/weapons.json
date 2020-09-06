@@ -290,7 +290,6 @@
     "name": "Cloudkill Kinetics",
     "mount": "Auxillary",
     "points": 2,
-    "range": "2-0",
     "tags": [ "Limited 2" ],
     "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target."
   }

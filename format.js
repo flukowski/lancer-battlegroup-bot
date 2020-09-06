@@ -32,6 +32,7 @@ function weaponFormat(object) {
   out += `${object.mount} Weapon\n`
   out += `${object.points} Points\n`
   if (object.tags.length > 0) out += `${object.tags.join(', ')}\n`
+  if (object.range) out += `Range ${object.range}\n`
   if (object.damage) out += `${object.damage} Damage\n`
   if (object.effect) out += `${object.effect}`
   return out
