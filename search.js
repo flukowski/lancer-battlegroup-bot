@@ -16,7 +16,7 @@ const searchable = [
   ...weapons.map(x => ({ ...x, data_type: 'weapon' })),
   ...systems.map(x => ({ ...x, data_type: 'system' })),
   ...escorts.map(x => ({ ...x, data_type: 'escort' })),
-  ...wings.map(x => ({ ...x, data_type: 'wing' })),
+  ...wings.map(x => ({ ...x, data_type: 'wing' }))
 ]
 
 const options = {
@@ -32,11 +32,7 @@ const options = {
   distance: 100,
   keys: [
     "name",
-    "ranknames",
-    "integrated.name",
-    "active_name",
-    "passive_name",
-    "alt_names"
+    "traits.name"
   ]
 };
 

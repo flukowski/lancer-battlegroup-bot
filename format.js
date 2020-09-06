@@ -24,7 +24,15 @@ function itemTypeFormat(object) {
 }
 
 function hullFormat(object) {
-  return object
+  let out = `**${object.name}**\n`
+  out += `${itemTypeFormat(object)} Hull\n`
+  out += `${object.points} Points\n`
+  let tags = [ `${object.hp} HP`, `${object.defense} Def` ].concat(object.tags)
+  if (object.tags.length > 0) out += `${tags.join(', ')}\n`
+  if (object.traits.length > 0) {
+    out += `${object.traits.map( trait => '\n**' + trait.name + '**: ' + trait.description )}`
+  }
+  return out
 }
 
 function weaponFormat(object) {

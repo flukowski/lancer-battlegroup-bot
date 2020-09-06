@@ -247,7 +247,7 @@
   {
     "id": "wa_secondary_kinetic_turrets",
     "name": "Secondary Kinetic Turrets",
-    "mount": "Auxillary",
+    "mount": "Auxiliary",
     "points": 0,
     "range": "2-0",
     "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target."
@@ -255,7 +255,7 @@
   {
     "id": "wa_flyswatter_missiles",
     "name": "Flyswatter Missiles",
-    "mount": "Auxillary",
+    "mount": "Auxiliary",
     "points": 0,
     "range": "2-0",
     "effect": "When fired alongside any Primary weapon, automatically deal 2 damage to target Ace and 1 damage to all Wings in target battlegroup."
@@ -263,7 +263,7 @@
   {
     "id": "wa_messenger_lead_laser",
     "name": "Messenger Lead Laser",
-    "mount": "Auxillary",
+    "mount": "Auxiliary",
     "points": 0,
     "range": "4-1",
     "effect": "This weapon does not fire alongside other weapons. Instead, whenever your battlegroup is within this weapon’s range all of your Payload attacks deal +1 damage for each Messenger Lead Laser equipped to your battlegroup, to a maximum of +4 damage."
@@ -271,7 +271,7 @@
   {
     "id": "wa_harbinger_confidence_lasers",
     "name": "Harbinger Confidence Lasers",
-    "mount": "Auxillary",
+    "mount": "Auxiliary",
     "points": 1,
     "range": "5-3",
     "effect": "This weapon does not fire alongside other weapons. Instead, 1/round whenever your battlegroup is within this weapon’s range and you remove a charging counter from a weapon with the Charge tag, you may automatically deal 1 damage to a target Capital Ship or Escort of your choice for each Harbinger Confidence Laser equipped to your battlegroup, to a maximum of 4 damage."
@@ -279,7 +279,7 @@
   {
     "id": "wa_nearspace_directed_energy_perforators",
     "name": "Nearspace Directed Energy Perforators",
-    "mount": "Auxillary",
+    "mount": "Auxiliary",
     "points": 1,
     "range": "2-0",
     "tags": [ "Interdiction" ],
@@ -288,7 +288,7 @@
   {
     "id": "wa_cloudkill_kinetics",
     "name": "Cloudkill Kinetics",
-    "mount": "Auxillary",
+    "mount": "Auxiliary",
     "points": 2,
     "tags": [ "Limited 2" ],
     "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target."

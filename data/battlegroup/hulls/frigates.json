@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "hf_caspian_sea",
+    "name": "GMS Caspian Sea",
+    "points": 3,
+    "hp": "14",
+    "defense": "10",
+    "tags": [ "1 Primary Weapon", "1 Auxiliary Weapon" ],
+    "traits": [
+      {
+        "name": "Fire Control Networking (Trait)",
+        "description": "When the Caspian Sea Class Frigate is assigned to a Defensive Screen, it may Lock On to an enemy Capital Ship or Escort. 1/round when an allied battlegroup in your range band consumes Lock On as part of an attack they may reroll that attack, but must keep the second result."
+      }
+    ]
+  }
+]
