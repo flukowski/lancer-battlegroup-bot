@@ -31,7 +31,7 @@ function weaponFormat(object) {
   let out = `**${object.name}**\n`
   out += `${object.mount} Weapon\n`
   out += `${object.points} Points\n`
-  out += `${object.tags.join(', ')}\n`
+  if (object.tags.length > 0) out += `${object.tags.join(', ')}\n`
   if (object.damage) out += `${object.damage} Damage\n`
   if (object.effect) out += `${object.effect}`
   return out

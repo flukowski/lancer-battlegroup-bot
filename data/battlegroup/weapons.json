@@ -243,5 +243,55 @@
     "range": "4-3",
     "tags": [ "Single Target", "Charge 2", "Limited 1", "Unique" ],
     "effect": "Skip Drones do not automatically begin removing charging counters during the Logistics Step. When you want to fire this weapon, target a Capital Ship during the Logistics Step and begin charging it. Unlike other Charge weapons, a Skip Drone must immediately be fired when fully charged, it cannot be held. Instead of attacking normally, roll 1d20. On a 10+ the drone hits, dealing 3d6 damage to the target ship and dealing 1d6 damage to all other Capital Ships and Escorts in that ship’s battlegroup. On a 9 or lower, or if your battlegroup is out of this weapon’s effective range when it finishes targeting, the drone misses its optimal delivery window, dealing 1d6 damage to the target ship only. This special attack roll cannot be modified in any way, and charging counters cannot be added to or removed from a Skip Drone by other systems or abilities."
+  },
+  {
+    "id": "wa_secondary_kinetic_turrets",
+    "name": "Secondary Kinetic Turrets",
+    "mount": "Auxillary",
+    "points": 0,
+    "range": "2-0",
+    "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target."
+  },
+  {
+    "id": "wa_flyswatter_missiles",
+    "name": "Flyswatter Missiles",
+    "mount": "Auxillary",
+    "points": 0,
+    "range": "2-0",
+    "effect": "When fired alongside any Primary weapon, automatically deal 2 damage to target Ace and 1 damage to all Wings in target battlegroup."
+  },
+  {
+    "id": "wa_messenger_lead_laser",
+    "name": "Messenger Lead Laser",
+    "mount": "Auxillary",
+    "points": 0,
+    "range": "4-1",
+    "effect": "This weapon does not fire alongside other weapons. Instead, whenever your battlegroup is within this weapon’s range all of your Payload attacks deal +1 damage for each Messenger Lead Laser equipped to your battlegroup, to a maximum of +4 damage."
+  },
+  {
+    "id": "wa_harbinger_confidence_lasers",
+    "name": "Harbinger Confidence Lasers",
+    "mount": "Auxillary",
+    "points": 1,
+    "range": "5-3",
+    "effect": "This weapon does not fire alongside other weapons. Instead, 1/round whenever your battlegroup is within this weapon’s range and you remove a charging counter from a weapon with the Charge tag, you may automatically deal 1 damage to a target Capital Ship or Escort of your choice for each Harbinger Confidence Laser equipped to your battlegroup, to a maximum of 4 damage."
+  },
+  {
+    "id": "wa_nearspace_directed_energy_perforators",
+    "name": "Nearspace Directed Energy Perforators",
+    "mount": "Auxillary",
+    "points": 1,
+    "range": "2-0",
+    "tags": [ "Interdiction" ],
+    "effect": "This weapon does not fire alongside other weapons. Instead, whenever any Ace, Escort, or Wing attacks or deals damage to a Capital Ship or Escort in your battlegroup they automatically take 1 damage each time they do so. In addition, while in this weapon’s effective range your battlegroup gains +1 Interdiction."
+  },
+  {
+    "id": "wa_cloudkill_kinetics",
+    "name": "Cloudkill Kinetics",
+    "mount": "Auxillary",
+    "points": 2,
+    "range": "2-0",
+    "tags": [ "Limited 2" ],
+    "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target."
   }
 ]
