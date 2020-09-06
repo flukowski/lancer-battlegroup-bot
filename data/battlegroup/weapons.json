@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ws_long_cycle_primary_lance",
+    "name": "Long-Cycle Primary Lance",
+    "mount": "Superheavy",
+    "points": 0,
+    "range": "4-0",
+    "damage": "12",
+    "tags": [ "Single Target", "Charge 3", "Reliable 3" ],
+    "description": "The galactic standard for any ship of the line, LCPLs encompass a wide category of cannon and particle beam which all effect the same end: the immediate and total destruction of the enemy on a square hit. With balanced spool times and high output, an LCPL is a reliable main gun for any ship that can field it."
+  },
+  {
+    "id": "ws_spinal_linac_cbc",
+    "name": "Spinal LinAc CBC",
+    "mount": "Superheavy",
+    "points": 2,
+    "range": "4-1",
+    "damage": "8",
+    "tags": [ "Single Target", "Charge 2" ],
+    "description": "An old workhorse, the linear accelerator coherent beam cannon once marked the pinnacle of energy weapon development. Reliable at middle-confidence ranges and, with modern power systems, capable of rapid cycling main battery fire, a LinAc CBC is nonetheless still a formidable weapon favored by conservative captains."
+  },
+  {
+    "id": "ws_spinal_petajoule_kinetic",
+    "name": "Spinal Petajoule Kinetic",
+    "mount": "Superheavy",
+    "points": 2,
+    "range": "5-2",
+    "damage": "15",
+    "tags": [ "Single Target", "Charge 3" ],
+    "effect": "This weapon does not take the +1 Difficulty penalty for targeting Escorts. On hit or miss, this weapon deals 5 damage to another Capital Ship or Escort in that target’s battlegroup. If there are no other targets in the battlegroup, this ability has no effect.",
+    "description": "An old workhorse, the linear accelerator coherent beam cannon once marked the pinnacle of energy weapon development. Reliable at middle-confidence ranges and, with modern power systems, capable of rapid cycling main battery fire, a LinAc CBC is nonetheless still a formidable weapon favored by conservative captains."
+  },
+  {
+    "id": "ws_3x3_block_short_spool_cannons",
+    "name": "3x3 Block Short-Spool Cannons",
+    "mount": "Superheavy",
+    "points": 2,
+    "range": "4-2",
+    "damage": "7",
+    "tags": [ "Single Target", "Accurate" ],
+    "effect": "Whenever you would make an attack with this weapon you may instead begin preparing it to fire a devastating volley shot. Mark this weapon with a special volley counter every time you do this up to a maximum of 2 volley counters stored at a time. Attacking with this weapon expends all stored volley counters, dealing +7 damage on hit for each counter spent. Your battlegroup gains the following Maneuver: Volley Sequence (Maneuver) Add one volley counter to the 3x3 Block Short-Spool Cannons, and then you may also fire one Primary weapon or move forward one range band.",
+    "description": "An old workhorse, the linear accelerator coherent beam cannon once marked the pinnacle of energy weapon development. Reliable at middle-confidence ranges and, with modern power systems, capable of rapid cycling main battery fire, a LinAc CBC is nonetheless still a formidable weapon favored by conservative captains."
+  },
+  {
+    "id": "ws_spinal_tachyon_lance",
+    "name": "Spinal Tachyon Lance",
+    "mount": "Superheavy",
+    "points": 3,
+    "range": "5-3",
+    "damage": "20",
+    "tags": [ "Single Target", "Charge 4", "Reliable 10" ],
+    "description": "First developed by Harrison Armory, STL main guns were introduced to Union Navy and Baronic Unified Command via GMS’s Systems Normalization department. Adapted from a now stagnant branch of theoretical faster-than-light travel, the Tachyon lance is a devastating weapon best used at extreme to long ranges, but suffers up close."
+  },
+  {
+    "id": "ws_nearlight_kill_pack",
+    "name": "Nearlight Kill-Pack",
+    "mount": "Superheavy",
+    "points": 3,
+    "range": "4-3",
+    "damage": "4d6",
+    "tags": [ "Single Target", "Reloading 2" ],
+    "effect": "This weapon cannot be used during the first round of combat as it requires preparatory calibration. Attacks with this weapon made closer than Long Range (4) gain Inaccurate.",
+    "description": "An NKP is essentially just a bundle of nearlight drives packed behind a dome-shaped micrometeorite shield. While frigates can, through the use of external bracket mounts, employ single-use skip drones in combat, only larger ships can fit NKPs into existing torpedo tubes or accelerator bays without substantial superstructural modification. NKPs are devastating — if crude and temperamental — weapons favored by states and navies with limited access to more advanced navspec ordinance."
+  },
+  {
+    "id": "ws_speartip_anti_capital_torpedos",
+    "name": "Speartip Anti-Capital Torpedos",
+    "mount": "Superheavy",
+    "points": 3,
+    "range": "5-4",
+    "damage": "25",
+    "tags": [ "Single Target", "Payload" ],
+    "description": "Using a scaled-up version of Union’s standard two-stage ACT system, Speartip torpedoes are long-range anti-capital payload delivery systems typically carried by the heaviest missile ships in any navy."
+  },
+  {
+    "id": "ws_co_consciousness_lance",
+    "name": "Co-Consciousness Lance",
+    "mount": "Superheavy",
+    "points": 3,
+    "range": "5-3",
+    "damage": "20",
+    "tags": [ "Single Target", "Charge 4", "Reliable 10" ],
+    "effect": "This weapon cannot be used during the first round of combat as it requires preparatory calibration. Attacks with this weapon made closer than Long Range (4) gain Inaccurate.",
+    "description": "An NKP is essentially just a bundle of nearlight drives packed behind a dome-shaped micrometeorite shield. While frigates can, through the use of external bracket mounts, employ single-use skip drones in combat, only larger ships can fit NKPs into existing torpedo tubes or accelerator bays without substantial superstructural modification. NKPs are devastating — if crude and temperamental — weapons favored by states and navies with limited access to more advanced navspec ordinance."
+  }
+]

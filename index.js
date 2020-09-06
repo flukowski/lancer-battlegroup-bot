@@ -5,19 +5,19 @@ require('dotenv').config()
 
 const client = new Commando.Client({
   owner: process.env.OWNER,
-  commandPrefix: '::'
+  commandPrefix: '??'
 })
 
-client.on('ready', () => console.log('UNCLE is ready!'))
+client.on('ready', () => console.log('Battlespace CIC is ready!'))
 
 class SearchCommand extends Commando.Command {
   constructor(client) {
     super(client, {
       name: 'search-compendium',
-      group: 'lancer',
+      group: 'battlegroup',
       memberName: 'search',
       aliases: ['search', 'compendium'],
-      description: 'Searches the LANCER compendium, including supplements.',
+      description: 'Searches the Battlegroup compendium.',
       patterns: [/\[\[(.+?)\]\]/],
       defaultHandling: false,
       throttling: false
@@ -45,9 +45,9 @@ class InviteCommand extends Commando.Command {
   constructor(client) {
     super(client, {
       name: 'invite',
-      group: 'lancer',
+      group: 'battlegroup',
       memberName: 'invite',
-      description: 'Get an invite link for UNCLE',
+      description: 'Get an invite link for Battlespace CIC',
     })
     client.on('ready', () => this.userID = client.user.id)
   }
@@ -56,18 +56,14 @@ class InviteCommand extends Commando.Command {
   }
 }
 
-const FaqCommand = require('./faq')
-
-
 client.registry
   .registerDefaults()
-  .registerGroup('lancer', 'LANCER commands')
-  .registerCommand(FaqCommand)
+  .registerGroup('battlegroup', 'Battlegroup commands')
   .registerCommand(SearchCommand)
   .registerCommand(InviteCommand)
 
 client.login(process.env.TOKEN)
 
 client.on('ready', () => {
-  client.user.setPresence({ activity: { name: 'LANCER | use [[brackets]]' }, status: 'online' })
+  client.user.setPresence({ activity: { name: 'BATTLEGROUP | use [[brackets]]' }, status: 'online' })
 })

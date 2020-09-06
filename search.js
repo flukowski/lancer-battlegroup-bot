@@ -1,34 +1,22 @@
 const data = require('./data');
 const Fuse = require('fuse.js')
 
-const { weapons, systems, mods, frames, tags, talents, core_bonuses, core_systems, actions, statuses } = data
-
-
-// const traits = frames.flatMap(frame => frame.traits.map(trait => ({
-//   id: `trait_${trait.name.replace(/ /g, '_').toLowerCase()}`,
-//   name: trait.name,
-//   effect: trait.description,
-//   data_type: 'trait'
-// })))
-
-const weapons_without_integrated = weapons.filter(w => !w.id.endsWith('_integrated'))
-
-const core_systems_with_iw = core_systems.map(coreSys => {
-  if (!coreSys.integrated || !coreSys.integrated.id) return { ...coreSys, integrated: null };
-
-  const integratedWeapon = weapons.find(w => w.id === coreSys.integrated.id)
-  return { ...coreSys, integrated: integratedWeapon }
-})
-
+const {
+  battleships, carriers, frigates,
+  weapons,
+  systems,
+  escorts,
+  wings
+} = data
 
 const searchable = [
-  ...core_systems_with_iw,
-  ...actions.map(x => ({ ...x, data_type: 'action' })),
-  ...statuses.map(x => ({ ...x, data_type: 'status' })),
-  ...weapons_without_integrated.map(w => ({ ...w, data_type: 'weapon' })), ...systems, ...mods, ...frames,
-  ...talents.map(t => ({ ...t, ranknames: t.ranks.map(x => x.name), data_type: 'talent' })),
-  ...tags.filter(x => !x.filter_ignore).map(t => ({ ...t, data_type: 'tag' })),
-  ...core_bonuses.map(t => ({ ...t, data_type: 'core_bonus' })),
+  ...battleships.map(x => ({ ...x, data_type: 'battleship' })),
+  ...carriers.map(x => ({ ...x, data_type: 'carrier' })),
+  ...frigates.map(x => ({ ...x, data_type: 'frigate' })),
+  ...weapons.map(x => ({ ...x, data_type: 'weapon' })),
+  ...systems.map(x => ({ ...x, data_type: 'system' })),
+  ...escorts.map(x => ({ ...x, data_type: 'escort' })),
+  ...wings.map(x => ({ ...x, data_type: 'wing' })),
 ]
 
 const options = {
