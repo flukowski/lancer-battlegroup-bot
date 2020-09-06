@@ -82,5 +82,166 @@
     "tags": [ "Single Target", "Charge 4", "Reliable 10" ],
     "effect": "This weapon cannot be used during the first round of combat as it requires preparatory calibration. Attacks with this weapon made closer than Long Range (4) gain Inaccurate.",
     "description": "An NKP is essentially just a bundle of nearlight drives packed behind a dome-shaped micrometeorite shield. While frigates can, through the use of external bracket mounts, employ single-use skip drones in combat, only larger ships can fit NKPs into existing torpedo tubes or accelerator bays without substantial superstructural modification. NKPs are devastating — if crude and temperamental — weapons favored by states and navies with limited access to more advanced navspec ordinance."
+  },
+  {
+    "id": "wp_primary_kinetic_batteries",
+    "name": "Primary Kinetic Batteries",
+    "mount": "Primary",
+    "points": 0,
+    "range": "2-0",
+    "damage": "1d6+1",
+    "tags": [ "Single Target", "Reliable 1" ]
+  },
+  {
+    "id": "wp_short_cycle_lance_batteries",
+    "name": "Short-Cycle Lance Batteries",
+    "mount": "Primary",
+    "points": 0,
+    "range": "3-0",
+    "damage": "4",
+    "tags": [ "Single Target", "Accurate" ]
+  },
+  {
+    "id": "wp_short_cycle_lance_batteries",
+    "name": "Short-Cycle Lance Batteries",
+    "mount": "Primary",
+    "points": 0,
+    "range": "3-0",
+    "damage": "4",
+    "tags": [ "Single Target", "Accurate" ]
+  },
+  {
+    "id": "wp_conical_kinetic_projector",
+    "name": "Conical Kinetic Projector",
+    "mount": "Primary",
+    "points": 0,
+    "range": "2-0",
+    "damage": "1d3+5",
+    "tags": [ "Single Target" ],
+    "effect": "Attacks with this weapon made further than Close Range (1) gain Inaccurate."
+  },
+  {
+    "id": "wp_primary_single_stage_torpedo",
+    "name": "Primary Single-Stage Torpedo",
+    "mount": "Primary",
+    "points": 0,
+    "range": "4-1",
+    "damage": "10",
+    "tags": [ "Single Target", "Payload" ]
+  },
+  {
+    "id": "wp_primary_single_stage_torpedo",
+    "name": "Primary Single-Stage Torpedo",
+    "mount": "Primary",
+    "points": 0,
+    "range": "4-1",
+    "damage": "10",
+    "tags": [ "Single Target", "Payload" ]
+  },
+  {
+    "id": "wp_primary_single_stage_torpedo",
+    "name": "Primary Single-Stage Torpedo",
+    "mount": "Primary",
+    "points": 0,
+    "range": "4-1",
+    "damage": "10",
+    "tags": [ "Single Target", "Payload" ]
+  },
+  {
+    "id": "wp_ship_to_ship_missiles",
+    "name": "Ship-to-Ship Missiles",
+    "mount": "Primary",
+    "points": 0,
+    "range": "4-0",
+    "damage": "1d6+4",
+    "tags": [ "Area Target", "Payload -1" ]
+  },
+  {
+    "id": "wp_gemini_laser_array",
+    "name": "Gemini Laser Array",
+    "mount": "Primary",
+    "points": 1,
+    "range": "3-0",
+    "damage": "4",
+    "tags": [ "Single Target", "Interdiction" ],
+    "effect": "When you would attack with this weapon you may instead set it to track incoming threats, dealing no damage but gaining +2 Interdiction until the end of your next turn."
+  },
+  {
+    "id": "wp_lamprey_boarding_torpedos",
+    "name": "Lamprey Boarding Torpedos",
+    "mount": "Primary",
+    "points": 1,
+    "range": "4-1",
+    "damage": "8",
+    "tags": [ "Single Target", "Payload", "Boarding", "Tenacity 11" ],
+    "effect": "A target that takes damage from this weapon is immediately boarded by subalterns and suffers the effects of a successful standard boarding action of your choice, but if this torpedo's damage is reduced to 0 or otherwise negated then the boarders are lost along with it. You may make multiple boarding actions with this weapon at a time"
+  },
+  {
+    "id": "wp_heavy_kinetic_batteries",
+    "name": "Heavy Kinetic Batteries",
+    "mount": "Primary",
+    "points": 1,
+    "range": "3-1",
+    "damage": "5",
+    "tags": [ "Single Target", "Reliable 2" ]
+  },
+  {
+    "id": "wp_dorsal_razorback_missiles",
+    "name": "Dorsal Razorback Missiles",
+    "mount": "Primary",
+    "points": 1,
+    "range": "3-0",
+    "damage": "1d6+6",
+    "tags": [ "Single Target", "Payload -1" ],
+    "effect": "You may consume Lock On as part of firing this weapon to increase or decrease its flight time by 1."
+  },
+  {
+    "id": "wp_legionspace_schizm",
+    "name": "Legionspace Schizm",
+    "mount": "Primary",
+    "points": 1,
+    "range": "3-0",
+    "damage": "3",
+    "tags": [ "Single Target", "Legionspace" ],
+    "effect": "On hit, an allied battlegroup may advance one range band or that allied battlegroup may ignore enemy effects that would force it to move until the end of their next turn."
+  },
+  {
+    "id": "wp_legionspace_still",
+    "name": "Legionspace Still",
+    "mount": "Primary",
+    "points": 1,
+    "range": "3-0",
+    "damage": "3",
+    "tags": [ "Single Target", "Legionspace" ],
+    "effect": "On hit, if the target’s battlegroup has any active Payload attacks, they must choose; either take +5 damage or add 1 flight counter to an active Payload attack of your choice."
+  },
+  {
+    "id": "wp_short_cycle_mass_accelerator_turrets",
+    "name": "Short-Cycle Mass Accelerator Turrets",
+    "mount": "Primary",
+    "points": 2,
+    "range": "2-0",
+    "damage": "1d6",
+    "tags": [ "Single Target", "Reliable 3" ],
+    "effect": "Instead of attacking with this weapon normally, you may instead target one or two Aces or Wings and automatically deal 1d3+1 damage to them."
+  },
+  {
+    "id": "wp_darkstar_multiple_warhead_torpedoes",
+    "name": "Darkstar Multiple-Warhead Torpedoes",
+    "mount": "Primary",
+    "points": 2,
+    "range": "4-1",
+    "damage": "8",
+    "tags": [ "Area Target", "Payload" ],
+    "effect": "If this weapon’s damage is not completely Interdicted, it deals +1d6 damage applied after Interdiction."
+  },
+  {
+    "id": "wp_throughline_skip_drone",
+    "name": "Throughline Skip Drone",
+    "mount": "Primary",
+    "points": 2,
+    "range": "4-3",
+    "tags": [ "Single Target", "Charge 2", "Limited 1", "Unique" ],
+    "effect": "Skip Drones do not automatically begin removing charging counters during the Logistics Step. When you want to fire this weapon, target a Capital Ship during the Logistics Step and begin charging it. Unlike other Charge weapons, a Skip Drone must immediately be fired when fully charged, it cannot be held. Instead of attacking normally, roll 1d20. On a 10+ the drone hits, dealing 3d6 damage to the target ship and dealing 1d6 damage to all other Capital Ships and Escorts in that ship’s battlegroup. On a 9 or lower, or if your battlegroup is out of this weapon’s effective range when it finishes targeting, the drone misses its optimal delivery window, dealing 1d6 damage to the target ship only. This special attack roll cannot be modified in any way, and charging counters cannot be added to or removed from a Skip Drone by other systems or abilities."
   }
 ]
