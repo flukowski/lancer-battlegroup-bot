@@ -12,5 +12,145 @@
         "description": "When the Caspian Sea Class Frigate is assigned to a Defensive Screen, it may Lock On to an enemy Capital Ship or Escort. 1/round when an allied battlegroup in your range band consumes Lock On as part of an attack they may reroll that attack, but must keep the second result."
       }
     ]
+  },
+  {
+    "id": "hf_huron",
+    "name": "GMS Huron Class Frigate",
+    "points": 3,
+    "hp": "14",
+    "defense": "10",
+    "tags": [ "1 Primary", "1 Auxiliary" ],
+    "traits": [
+      {
+        "name": "Flak Screen (Trait)",
+        "description": "Whenever an Ace or Wing deals damage to any ship in your battlegroup, roll 1d20. On a 10+, that Ace or Wing takes 1d3+1 damage. When the Huron Class Frigate is assigned to a Defensive Screen, this roll automatically succeeds."
+      }
+    ]
+  },
+  {
+    "id": "hf_superior",
+    "name": "GMS Superior Class Frigate",
+    "points": 3,
+    "hp": "14",
+    "defense": "10",
+    "tags": [ "1 Primary", "1 System" ],
+    "traits": [
+      {
+        "name": "Repair Drones (Trait)",
+        "description": "When the Superior Class Frigate is assigned to a Defensive Screen, the ship it is screening repairs 2 HP."
+      },
+      {
+        "name": "Fleet Triage (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "Choose one of your Capital Ships or Escorts, or an allied Capital Ship or Escort in your range band. That ship repairs 5 HP."
+      }
+    ]
+  },
+  {
+    "id": "hf_schuyler",
+    "name": "HA Schuyler Class Frigate",
+    "points": 4,
+    "hp": "12",
+    "defense": "10",
+    "tags": [ "2 Systems" ],
+    "traits": [
+      {
+        "name": "Enhanced Logistics (Trait)",
+        "tags": [ "Limited 2" ],
+        "description": "The Schuyler Class Frigate is equipped with a Limited 2 fleet logistics suite. 1/round you may expend a use from this system to remove 1 refresh counter from any expended Reloading weapon or system in your battlegroup or an allied battlegroup in the same range band during the Logistics Step. A weapon or system can only have a single counter removed this way between uses."
+      }
+    ]
+  },
+  {
+    "id": "hf_creighton",
+    "name": "HA Creighton Class Frigate",
+    "points": 3,
+    "hp": "10",
+    "defense": "10",
+    "tags": [ "1 Superheavy" ],
+    "traits": [
+      {
+        "name": "Calibrated Targeting (Trait)",
+        "description": "The Creighton Class Frigate adds +3 Reliable to attacks made at Extreme and Long range, but attacks made at closer ranges are made with +1 Difficulty instead."
+      },
+      {
+        "name": "Purpose-Built (Trait)",
+        "description": "The Creighton Class Frigate can only equip Superheavy weapons with the Charge tag."
+      }
+    ]
+  },
+  {
+    "id": "hf_turenne",
+    "name": "HA Turenne Class Frigate",
+    "points": 4,
+    "hp": "10",
+    "defense": "12",
+    "tags": [ "2 Auxiliary", "1 System" ],
+    "traits": [
+      {
+        "name": "Active Defense (Trait)",
+        "description": "When the Turenne Class Frigate is assigned to a Defensive Screen, that battlegroup gains +3 Interdiction."
+      }
+    ]
+  },
+  {
+    "id": "hf_cirsium",
+    "name": "FKS Cirsium Class Frigate",
+    "points": 4,
+    "hp": "12",
+    "defense": "10",
+    "tags": [ "1 Primary", "1 Escort" ],
+    "traits": [
+      {
+        "name": "Honor Guard (Trait)",
+        "description": "1/round when the Crisium Class Frigate takes damage from any source while it has an equipped Escort, it may reduce that damage to 0. The equipped Escort then takes that much damage."
+      }
+    ]
+  },
+  {
+    "id": "hf_onopordum",
+    "name": "FKS Onopordum Class Frigate",
+    "points": 2,
+    "hp": "12",
+    "defense": "10",
+    "tags": [ "1 Primary" ],
+    "traits": [
+      {
+        "name": "Stealing Luck From The Devil (Trait)",
+        "description": "When the Onopordum Class Frigate is assigned to a Defensive Screen, roll a d20 instead of the usual 50 percent chance. On a result of 10+, the screen is successful. 1/battle, you may add or subtract 1d3 from any d20 roll (your own, ally, or enemy) after seeing the result. A roll can only be modified in this way once."
+      }
+    ]
+  },
+  {
+    "id": "hf_bakunawa",
+    "name": "IPS-N Bakunawa Class Frigate",
+    "points": 4,
+    "hp": "16",
+    "defense": "8",
+    "tags": [ "1 Primary", "1 Wing" ],
+    "traits": [
+      {
+        "name": "Pocket Carrier (Trait)",
+        "description": "During the Logistics Step, the Bakunawa Class Frigate can repair 2 HP on a Wing equipped to it. When this ship is assigned to a Defensive Screen, you may also issue a command to a Wing equipped to it."
+      }
+    ]
+  },
+  {
+    "id": "hf_laho",
+    "name": "IPS-N Laho Class Frigate",
+    "points": 4,
+    "hp": "16",
+    "defense": "8",
+    "tags": [ "1 Primary", "1 System" ],
+    "traits": [
+      {
+        "name": "Rotary Launch Tubes (Trait)",
+        "description": "All Payload weapons equipped to the Laho Class Frigate may reduce their travel time by 1 to a minimum of 1."
+      },
+      {
+        "name": "Torpedo Boat (Trait)",
+        "description": "The Laho Class Frigate can only equip Primary weapons with the Payload tag."
+      }
+    ]
   }
 ]

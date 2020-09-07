@@ -28,7 +28,7 @@ function hullFormat(object) {
   out += `${itemTypeFormat(object)} | ${object.hp} HP, ${object.defense} Def\n`
   if (object.tags && object.tags.length > 0) out += `${object.tags.join(', ')}\n`
   if (object.traits.length > 0) {
-    out += `${object.traits.map( trait => `\n**${trait.name}${trait.tags && trait.tags.length > 0 ? ` [${trait.tags.join(', ')}]` : ''}**: ${trait.description}` )}`
+    out += `${object.traits.map( trait => `\n**${trait.name}${trait.tags && trait.tags.length > 0 ? ` [${trait.tags.join(', ')}]` : ''}**: ${trait.description}` ).join('')}`
   }
   return out
 }
@@ -40,7 +40,7 @@ function weaponFormat(object) {
   if (object.range) attack_line.push(`Range ${object.range}`)
   if (object.damage) attack_line.push(`Damage ${object.damage}`)
   out += `${attack_line.join(' | ')}\n`
-  if (object.effect) out += `${object.effect}`
+  if (object.effect) out += `\n${object.effect}`
   return out
 }
 
