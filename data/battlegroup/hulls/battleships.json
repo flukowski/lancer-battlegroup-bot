@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "hb_calendula",
+    "name": "FKS Calendula Class Battlecruiser",
+    "points": 7,
+    "hp": "23",
+    "defense": "13",
+    "tags": [ "2 Superheavy Weapons", "1 Primary Weapon", "1 System" ],
+    "traits": [
+      {
+        "name": "Overcharge Capacitors (Trait)",
+        "description": "The Calendula Class Battlecruiser may pour more power into its weapons than is strictly advisable. When an equipped Superheavy weapon with the Charge tag is fully charged, you may begin adding overcharge counters to it during the Logistics Step (or whenever an ability would allow you to remove a charging tag from that weapon) to a maximum of 4 overcharge counters. Each time you add an overcharge counter this ship takes 1 damage that cannot be prevented in any way, but when you fire an overcharged weapon your attack roll gains +1 (a flat +1 to the roll) and it deals an additional +1d3 damage on hit for each overcharge counter on it."
+      },
+      {
+        "name": "Maximum Power! (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "Choose a single Superheavy weapon equipped to the Calendula Class Battlecruiser with the Charge tag. That weapon immediately removes 4 charging counters, gaining overcharge counters as needed if this would take it below 0, and the next attack made with this weapon gains Reliable 4, or adds +4 to its existing Reliable value. After that weapon's next attack, it is destroyed and cannot be used again for the rest of the battle."
+      }
+    ]
+  }
+]

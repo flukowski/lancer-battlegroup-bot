@@ -24,22 +24,19 @@ function itemTypeFormat(object) {
 }
 
 function hullFormat(object) {
-  let out = `**${object.name}**\n`
+  let out = `**[${object.points}] ${object.name}**\n`
   out += `${itemTypeFormat(object)} Hull\n`
-  out += `${object.points} Points\n`
   let tags = [ `${object.hp} HP`, `${object.defense} Def` ].concat(object.tags)
   if (object.tags.length > 0) out += `${tags.join(', ')}\n`
   if (object.traits.length > 0) {
-    out += `${object.traits.map( trait => '\n**' + trait.name + '**: ' + trait.description )}`
+    out += `${object.traits.map( trait => `\n**${trait.name}${trait.tags && trait.tags.length > 0 ? ` [${trait.tags.join(', ')}]` : ''}**: ${trait.description}` )}`
   }
   return out
 }
 
 function weaponFormat(object) {
-  let out = `**${object.name}**\n`
-  out += `${object.mount} Weapon\n`
-  out += `${object.points} Points\n`
-  if (object.tags.length > 0) out += `${object.tags.join(', ')}\n`
+  let out = `**[${object.points}] ${object.name}** (${object.mount})\n`
+  if (object.tags && object.tags.length > 0) out += `${object.tags.join(', ')}\n`
   if (object.range) out += `Range ${object.range}\n`
   if (object.damage) out += `${object.damage} Damage\n`
   if (object.effect) out += `${object.effect}`
