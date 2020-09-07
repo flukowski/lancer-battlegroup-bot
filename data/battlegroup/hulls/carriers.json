@@ -1,1 +1,115 @@
-[]
+[
+  {
+    "id": "hc_amazon",
+    "name": "GMS Amazon Class Line Carrier",
+    "points": 5,
+    "hp": "12",
+    "defense": "13",
+    "tags": [ "4 Wings" ],
+    "traits": [
+      {
+        "name": "Carrier (Trait)",
+        "description": "All Carriers have 3 free points that can only be spent on equipping Escorts or Wings."
+      },
+      {
+        "name": "Rapid Printing (Trait)",
+        "tags": [ "Limited 3" ],
+        "description": "The Amazon Class Line Carrier has enhanced flight decks with Limited 3 rapid printing systems. 1/round, during the Logistics Step you may expend a use to repair a Wing equipped to this ship to full HP."
+      }
+    ]
+  },
+  {
+    "id": "hc_tongass",
+    "name": "GMS Tongass Class Line Carrier",
+    "points": 6,
+    "hp": "12",
+    "defense": "13",
+    "tags": [ "2 Auxiliary", "2 Escorts" ],
+    "traits": [
+      {
+        "name": "Carrier (Trait)",
+        "description": "All Carriers have 3 free points that can only be spent on equipping Escorts or Wings."
+      },
+      {
+        "name": "Close Support (Trait)",
+        "description": "1/round, an ally in your range band may use any Tactics granted by one of the Tongass Class Line Carrier’s equipped Escorts as if it was under their control."
+      }
+    ]
+  },
+  {
+    "id": "hc_farragut",
+    "name": "HA Farragut Class Starfield Carrier",
+    "points": 6,
+    "hp": "14",
+    "defense": "12",
+    "tags": [ "1 Primary", "1 Modular", "2 Wings" ],
+    "traits": [
+      {
+        "name": "Carrier (Trait)",
+        "description": "All Carriers have 3 free points that can only be spent on equipping Escorts or Wings."
+      },
+      {
+        "name": "Modular Design (Trait)",
+        "description": "The Farragut Class Starfield Carrier has a special Modular slot that can be used to equip either an Auxiliary Weapon, System, Escort, or Wing."
+      },
+      {
+        "name": "Fleet Coordinator (Trait)",
+        "description": "When you assign a Frigate to a Defensive Screen, you may assign it screen for up to two ships at once."
+      }
+    ]
+  },
+  {
+    "id": "hc_tagetes",
+    "name": "FKS Tagetes Class Agile Carrier",
+    "points": 7,
+    "hp": "12",
+    "defense": "14",
+    "tags": [ "1 System", "3 Wings" ],
+    "traits": [
+      {
+        "name": "Carrier (Trait)",
+        "description": "All Carriers have 3 free points that can only be spent on equipping Escorts or Wings."
+      },
+      {
+        "name": "Lead Dancer (Trait)",
+        "description": "The Tagetes Class Agile Carrier’s equipped Wings gain +1 to all non-boarding damage effects. All damage dealt to this ship’s equipped Wings is reduced by 1d3 to a minimum of 1."
+      }
+    ]
+  },
+  {
+    "id": "hc_tawa",
+    "name": "IPS-N Tawa Class Medium Carrier",
+    "points": 5,
+    "hp": "14",
+    "defense": "11",
+    "tags": [ "1 Escort", "1 System", "2 Wings" ],
+    "traits": [
+      {
+        "name": "Carrier (Trait)",
+        "description": "All Carriers have 3 free points that can only be spent on equipping Escorts or Wings."
+      },
+      {
+        "name": "Away Teams (Trait)",
+        "description": "TAll boarding actions launched from the Tawa Class Medium Carrier gain +2 Tenacity."
+      }
+    ]
+  },
+  {
+    "id": "hc_masauwu",
+    "name": "IPS-N Masauwu Class Heavy Carrier-Frame",
+    "points": 7,
+    "hp": "14",
+    "defense": "10",
+    "tags": [ "2 Escorts", "2 Wings" ],
+    "traits": [
+      {
+        "name": "Carrier (Trait)",
+        "description": "All Carriers have 3 free points that can only be spent on equipping Escorts or Wings."
+      },
+      {
+        "name": "Rapid Printing (Trait)",
+        "description": "1/round, when you use a Tactic to command an Escort equipped to the Masauwu Class Heavy Carrier Frame, you may command another Escort or Wing equipped to it at the same time."
+      }
+    ]
+  }
+]
