@@ -17,5 +17,114 @@
         "description": "Choose a single Superheavy weapon equipped to the Calendula Class Battlecruiser with the Charge tag. That weapon immediately removes 4 charging counters, gaining overcharge counters as needed if this would take it below 0, and the next attack made with this weapon gains Reliable 4, or adds +4 to its existing Reliable value. After that weapon's next attack, it is destroyed and cannot be used again for the rest of the battle."
       }
     ]
+  },
+  {
+    "id": "hb_muir",
+    "name": "GMS Muir Class Battleship",
+    "points": 6,
+    "hp": "25",
+    "defense": "12",
+    "tags": [ "1 Superheavy", "1 Primary", "2 Auxiliary", "1 System" ],
+    "traits": [
+      {
+        "name": "Paragon (Trait)",
+        "description": "1/round, you may add +1 Accuracy to any roll you or an ally in the same range band makes. 1/battle, you may add +3 Accuracy instead."
+      }
+    ]
+  },
+  {
+    "id": "hb_thoreau",
+    "name": "GMS Thoreau Class Battleship",
+    "points": 7,
+    "hp": "25",
+    "defense": "12",
+    "tags": [ "1 Superheavy", "2 Primary", "2 Auxiliary" ],
+    "traits": [
+      {
+        "name": "Barrage Doctrine (Trait)",
+        "description": "When you fire a Primary weapon as part of the All Ahead Full! Maneuver, you may use two Auxiliary weapons alongside it instead of one."
+      },
+      {
+        "name": "Unleash Hell! (Maneuver)",
+        "tags": [ "Limited 1" ],
+        "description": "You may fire one Superheavy weapon and up to two Primary weapons, or up to four Primary weapons."
+      }
+    ]
+  },
+  {
+    "id": "hb_louis",
+    "name": "HA Louis XIV Class Dreadnought",
+    "points": 7,
+    "hp": "15",
+    "defense": "15",
+    "tags": [ "1 Superheavy", "1 Primary", "2 System" ],
+    "traits": [
+      {
+        "name": "Pinpoint Aegis (Trait)",
+        "description": "The Louis XIV begins each battle with 5 Overshield, and gains 5 Overshield at the start of the Logistics Step. Your battlegroup gains +1d6 Interdiction."
+      },
+      {
+        "name": "Projected Blackshield (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "You or an allied battlegroup of your choice gains +3d6 Interdiction until the end of their next turn."
+      }
+    ]
+  },
+  {
+    "id": "hb_michel_ney",
+    "name": "HA Michel Ney Class Dreadnought",
+    "points": 7,
+    "hp": "25",
+    "defense": "12",
+    "tags": [ "1 Superheavy", "2 Primary", "1 System" ],
+    "traits": [
+      {
+        "name": "Blinkspace Carver (Trait)",
+        "description": "When you use the Retrograde Burn! maneuver you may fire a Primary Weapon before or after falling back."
+      },
+      {
+        "name": "Tactical Blinktunneler (Maneuver)",
+        "tags": [ "Limited 1" ],
+        "description": "Your battlegroup may move back or forward one range band, gaining +1d6 Interdiction or +2 to the Defense score of all ships until the end of your next turn, and you may fire one Superheavy Weapon or up to two Primary Weapons after moving."
+      }
+    ]
+  },
+  {
+    "id": "hb_greenland",
+    "name": "IPS-N Greenland Class Battlecarrier",
+    "points": 7,
+    "hp": "30",
+    "defense": "10",
+    "tags": [ "1 Superheavy", "1 Primary", "3 Wing" ],
+    "traits": [
+      {
+        "name": "Hook-Jab (Trait)",
+        "description": "1/round whenever any ship in your battlegroup consumes Lock On as part of a Single Target attack, you may immediately use a Tactic to command a Wing equipped to the Greenland Class Battlecarrier for free"
+      },
+      {
+        "name": "Body Blow (Maneuver)",
+        "tags": [ "Limited 1" ],
+        "description": "Fire one Superheavy weapon or up to two Primary weapons. You may then command all Wings equipped to the Greenland Class Battlecarrier, giving them +2 to all non-boarding damage effects if they take 1d3 damage in return."
+      }
+    ]
+  },
+  {
+    "id": "hb_eiland",
+    "name": "IPS-N Eiland Class Command Carrier",
+    "points": 7,
+    "hp": "30",
+    "defense": "8",
+    "tags": [ "1 Superheavy", "1 System", "3 Escort" ],
+    "traits": [
+      {
+        "name": "Superior Logistics (Trait)",
+        "description": "The Eiland Class Command Carrier has 3 free points that can only be spent on equipping Escorts. All of this ship's equipped Escorts begin each battle with 2 Overshield."
+      },
+      {
+        "name": "Combat Refit (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "Repair all Escorts equipped to the Eiland Class Command Carrier to full HP, and then command up to two Escorts equipped to this ship."
+      }
+    ]
   }
 ]
