@@ -5,7 +5,7 @@
     "points": 7,
     "hp": "23",
     "defense": "13",
-    "tags": [ "2 Superheavy Weapons", "1 Primary Weapon", "1 System" ],
+    "tags": [ "2 Superheavy", "1 Primary", "1 System" ],
     "traits": [
       {
         "name": "Overcharge Capacitors (Trait)",

@@ -24,8 +24,7 @@ function itemTypeFormat(object) {
 }
 
 function hullFormat(object) {
-  let out = `**[${object.points}] ${object.name}**\n`
-  out += `${itemTypeFormat(object)} Hull\n`
+  let out = `**[${object.points}] ${object.name} (${itemTypeFormat(object)})**\n`
   let tags = [ `${object.hp} HP`, `${object.defense} Def` ].concat(object.tags)
   if (object.tags.length > 0) out += `${tags.join(', ')}\n`
   if (object.traits.length > 0) {

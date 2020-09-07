@@ -5,7 +5,7 @@
     "points": 3,
     "hp": "14",
     "defense": "10",
-    "tags": [ "1 Primary Weapon", "1 Auxiliary Weapon" ],
+    "tags": [ "1 Primary", "1 Auxiliary" ],
     "traits": [
       {
         "name": "Fire Control Networking (Trait)",
