@@ -1,1 +1,139 @@
-[]
+[
+  {
+    "id": "aggressive_commanders",
+    "name": "Aggressive Commanders",
+    "points": 0,
+    "tags": [ "Unique" ],
+    "effect": "You gain +1 Accuracy to all attacks while at range 2-0. All attacks against you while you are at range 2-0 gain +1 Accuracy."
+  },
+  {
+    "id": "insightful_commanders",
+    "name": "Insightful Commanders",
+    "points": 0,
+    "tags": [ "Reloading 2", "Unique" ],
+    "effect": "Whenever an enemy battlegroup would force you to move back or forward any number of range bands, you may ignore that movement. Until the end of your next turn, the next attack against you is made with +1 Difficulty."
+  },
+  {
+    "id": "veteran_crews",
+    "name": "Veteran Crews",
+    "points": 0,
+    "tags": [ "Limited 1" ],
+    "effect": "This ship may reroll one of its attack rolls, but must keep the second result. This system may be taken multiple times, but only once per ship."
+  },
+  {
+    "id": "shield_projector",
+    "name": "Predict/Overlay Shield Projector",
+    "points": 0,
+    "tags": [ "Limited 1", "Unique" ],
+    "effect": "During the Impact Step, a ship in your battlegroup may reduce incoming damage from one Superheavy weapon by 6. At Extreme Range, increase this damage reduction to 10."
+  },
+  {
+    "id": "single_plane_shield",
+    "name": "Single-Plane Shield",
+    "points": 0,
+    "tags": [ "Interdiction", "Limited 1" ],
+    "effect": "During the Impact Step, you may reroll your Interdiction and take the best result."
+  },
+  {
+    "id": "piper_drones",
+    "name": "Piper Drones",
+    "points": 0,
+    "tags": [ "Limited 1" ],
+    "effect": "During the Logistics Step, you may add 1 flight counter to an active enemy Payload attack."
+  },
+  {
+    "id": "fire_for_effect",
+    "name": "Fire For Effect!",
+    "points": 0,
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Fire For Effect! (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "You may nominate a specific enemy battlegroup as a priority target. Until the next Logistics Step, all attacks made against that battlegroup are made with +1 Accuracy."
+      }
+    ]
+  },
+  {
+    "id": "steady_now",
+    "name": "Steady...Now!",
+    "points": 0,
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Steady...Now! (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "Add 1 charging counter to a weapon in your battlegroup with the Charge tag. Your next attack with that weapon gains +1 Accuracy and +X Reliable based on your range band (Extreme Range +5, Long Range +4, etc)."
+      }
+    ]
+  },
+  {
+    "id": "emergency_maneuvers",
+    "name": "Emergency Maneuvers!",
+    "points": 0,
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Emergency Maneuvers! (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "Advance or fall back one range band."
+      }
+    ]
+  },
+  {
+    "id": "cleared_to_land",
+    "name": "Cleared to Land!",
+    "points": 0,
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Cleared to Land! (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "All of your equipped Escorts and Wings or all Escorts and Wings belonging to an allied battlegroup in the same range band as you repair 2 HP. If an allied Ace is in the same range band as you, they repair 4 HP as well."
+      }
+    ]
+  },
+  {
+    "id": "brace_for_impact",
+    "name": "Brace For Impact!",
+    "points": 0,
+    "tags": [ "Unique", "Limited 1" ],
+    "effect": "You may use this during the Impact Step, after attacks have been rolled and damage has been assigned. Until the end of your next turn, all damage dealt to all ships in your battlegroup is reduced by half. You may not use any Tactics or make any Maneuvers during your next turn except for All Ahead Full! or Retrograde Burn!"
+  },
+  {
+    "id": "fighter_launch_catapults",
+    "name": "Fighter Launch Catapults",
+    "points": 0,
+    "tags": [ "Unique" ],
+    "effect": "This ship gains +1 Wing slot."
+  },
+  {
+    "id": "bulwark_redundancies",
+    "name": "Bulwark Redundancies",
+    "points": 0,
+    "effect": "Increase this ship’s HP by 3. This system may be taken multiple times, but only once per ship."
+  },
+  {
+    "id": "smartscreen",
+    "name": "Smartscreen",
+    "points": 1,
+    "effect": "This ship is orbited by a screen of baffler drones. The first Single Target attack made against this ship each round is made with +1 Difficulty."
+  },
+  {
+    "id": "power_distribution_systems",
+    "name": "Power Distribution Systems",
+    "points": 1,
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Divert Power to Defense Screens (Tactic)",
+        "description": "You may add any number of charging counters to a weapon with the Charge tag in your battlegroup up to its maximum value. That ship gains +1 Defense to a maximum of 20 and your battlegroup gains +2 Interdiction until the end of your next turn for each counter added this way."
+      },
+      {
+        "name": "Divert Power to Weapons (Tactic)",
+        "tags": [ "Reloading 2" ],
+        "description": "You may shunt power from defenses straight into a ship’s weapon systems. Doing this removes 1 charging counter from any weapon with the Charge tag but all attacks against that ship gain +1 Accuracy and Interdiction applied to that ship is only half as effective (requiring 2 points of Interdiction to prevent 1 damage) until the end of your next turn."
+      }
+    ]
+  }
+]

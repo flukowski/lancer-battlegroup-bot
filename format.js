@@ -27,7 +27,7 @@ function hullFormat(object) {
   let out = `[${object.points}] **${object.name}**\n`
   out += `${itemTypeFormat(object)} | ${object.hp} HP, ${object.defense} Def\n`
   if (object.tags && object.tags.length > 0) out += `${object.tags.join(', ')}\n`
-  if (object.traits.length > 0) {
+  if (object.traits && object.traits.length > 0) {
     out += `${object.traits.map( trait => `\n**${trait.name}${trait.tags && trait.tags.length > 0 ? ` [${trait.tags.join(', ')}]` : ''}**: ${trait.description}` ).join('')}`
   }
   return out
@@ -45,7 +45,13 @@ function weaponFormat(object) {
 }
 
 function systemFormat(object) {
-  return object
+  let out = `[${object.points}] **${object.name}**\n`
+  if (object.tags && object.tags.length > 0) out += `${object.tags.join(', ')}\n`
+  if (object.traits && object.traits.length > 0) {
+    out += `${object.traits.map( trait => `\n**${trait.name}${trait.tags && trait.tags.length > 0 ? ` [${trait.tags.join(', ')}]` : ''}**: ${trait.description}` ).join('')}`
+  }
+  if (object.effect) out += `\n${object.effect}`
+  return out
 }
 
 // function licenseFormat(object) {
