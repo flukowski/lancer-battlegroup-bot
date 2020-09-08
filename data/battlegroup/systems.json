@@ -135,5 +135,114 @@
         "description": "You may shunt power from defenses straight into a ship’s weapon systems. Doing this removes 1 charging counter from any weapon with the Charge tag but all attacks against that ship gain +1 Accuracy and Interdiction applied to that ship is only half as effective (requiring 2 points of Interdiction to prevent 1 damage) until the end of your next turn."
       }
     ]
+  },
+  {
+    "id": "anticognition_hyperfractal",
+    "name": "Anticognition Hyperfractal",
+    "points": 1,
+    "tags": [ "Legionspace", "Reloading 3", "Unique" ],
+    "effect": "During the Logistics Step, you may add 1 flight counter to any number of active enemy Payload attacks. An enemy battlegroup whose Payload attacks are affected by this system may ignore this effect by taking 3 Area damage per flight counter negated. This damage cannot be Interdicted."
+  },
+  {
+    "id": "impossible_dodge",
+    "name": "Impossible Dodge",
+    "points": 1,
+    "tags": [ "Legionspace", "Reloading 3", "Unique" ],
+    "effect": "During the Logistics Step, after charging, payload, and refresh counters have been removed, choose a ship in your battlegroup. Using sudden counterfactual positioning that ship is temporarily “removed from play” until the end of your next turn. While removed from play in this fashion it cannot be targeted by attacks or take damage, but none of its weapons, systems, or traits can be used or benefitted from. This includes any Interdiction bonuses it grants and any Charge weapons equipped to that ship. Active Payload weapons targeting that ship whose flight times reached 0 during the same Logistics Step this system was used are successfully evaded, dealing 0 damage. Area Target Payload weapons will deal their damage to the other ships in the battlegroup as normal."
+  },
+  {
+    "id": "subjective_syzygy",
+    "name": "Subjective Syzygy",
+    "points": 2,
+    "tags": [ "Legionspace", "Reloading 3", "Unique" ],
+    "effect": "When an enemy attacks a ship in your battlegroup with a Single Target attack, you may force them to roll twice and take the worst result."
+  },
+  {
+    "id": "subaltern_combat_crews",
+    "name": "Subaltern Combat Crews",
+    "points": 1,
+    "tags": [ "Reloading 3", "Unique" ],
+    "effect": "You may use an additional Tactic during the Action Step of your turn."
+  },
+  {
+    "id": "echopraxic_imago",
+    "name": "Echopraxic Imago",
+    "points": 1,
+    "tags": [ "Legionspace", "Boarding", "Tenacity 10", "Unique", "Range 3-0" ],
+    "traits": [
+      {
+        "name": "Echopraxic Imago (Tactic)",
+        "description": "You introduce a viral logic bomb into the systems of an enemy Flagship, treating it as a boarding action. During the Boarding Step this logic bomb activates, and makes one of the following boarding commands: \nInduce Nostalgic Loop: Until the end of their next turn, whenever the boarded ship's battlegroup would roll Interdiction they roll twice and take the worse result. \nInflict Ontological Parasite: Choose a range band. Until the end of their next turn, the boarded battlegroup’s attack rolls against targets in that range band have a 50 percent chance to miss outright before the attack is made. Roll a die or flip a coin to determine if the attack misses. This does not stack with Defensive Screen; defending targets choose which effect to apply. Additionally, the boarded battlegroup cannot choose that range band for abilities that affect or target specific ranges."
+      }
+    ]
+  },
+  {
+    "id": "legionspace_coordinator",
+    "name": "Legionspace Coordinator",
+    "points": 2,
+    "tags": [ "Legionspace", "Unique" ],
+    "traits": [
+      {
+        "name": "Exploit Positioning (Maneuver)",
+        "tags": [ "Reloading 3" ],
+        "description": "Nominate an allied battlegroup. That battlegroup may take an additional Maneuver on their next turn."
+      }
+    ]
+  },
+  {
+    "id": "sandstorm_vanguard",
+    "name": "“Sandstorm” Vanguard",
+    "points": 3,
+    "tags": [ "Inderdiction", "Unique" ],
+    "traits": [
+      {
+        "name": "Lithoscreen (Tactic)",
+        "tags": [ "Limited 2" ],
+        "description": "One Capital Ship in your battlegroup gains 5 Overshield."
+      },
+      {
+        "name": "Rockshot (Maneuver)",
+        "tags": [ "Area Attack", "Payload", "Limited 1", "Range 3-1" ],
+        "description": "This special Maneuver lobs asteroids and debris at an enemy battlegroup of your choice, dealing 6 Damage. You may also expend Lithoscreen uses when you use this Maneuver to add +2 damage for each use expended this way."
+      }
+    ],
+    "effect": "Your battlegroup gains +2 Interdiction."
+  },
+  {
+    "id": "aurora_stealth_shrouding",
+    "name": "Aurora Stealth Shrouding",
+    "points": 3,
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Shrouded Advance (Maneuver)",
+        "description": "Advance one range band and gain either +1d6 Interdiction or +2 Defense until the end of your next turn."
+      },
+      {
+        "name": "Thermal Spoofing (Tactic)",
+        "tags": [ "Limited 1" ],
+        "description": "This ship gains 5 Overshield. Add 1 flight counter to any number of active enemy Payload weapons targeting your battlegroup or any of your ships."
+      }
+    ],
+    "effect": "Whenever your battlegroup falls back or advances during your turn you may clear Lock On from this ship."
+  },
+  {
+    "id": "battlespace_cic",
+    "name": "Battlespace CIC",
+    "points": 3,
+    "tags": [ "Legionspace", "Unique" ],
+    "traits": [
+      {
+        "name": "Coordinated Impact (Maneuver)",
+        "tags": [ "Limited 1" ],
+        "description": "Add or remove 1 flight counter from up to two in-flight Payload weapons belonging to you or allied battlegroups"
+      },
+      {
+        "name": "Adjust Bearing (Tactic)",
+        "tags": [ "Reloading 2" ],
+        "description": "Move an allied battlegroup back or forward one range band. If you use this Tactic at range 5-4, you may also Lock On to an enemy Capital Ship or Escort."
+      }
+    ],
+    "effect": "This ship gains +1 Escort slot."
   }
 ]
