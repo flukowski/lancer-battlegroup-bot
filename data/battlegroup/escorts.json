@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "es_marine_landers",
+    "name": "Marine Landers",
+    "points": 0,
+    "tags": [ "Boarding", "Tenacity 11", "Range 3-0" ]
+  },
+  {
+    "id": "es_corvette_escort",
+    "name": "Corvette Escort",
+    "points": 1,
+    "hp": "6",
+    "traits": [
+      {
+        "name": "Corvette Command (Tactic)",
+        "tags": [ "Range 3-0" ],
+        "description": "Choose one Corvette Escort assigned to your battlegroup and give them one of the following commands: \n● Trade Blows \nDeal 2 damage to target Wing, or deal 4 damage to target Capital Ship and take 2 damage in return. \n● Defensive Formation \nAdd +2 to your battlegroup’s Interdiction until the start of your next turn. \n● Gun Run \nLimited 1 \nDeal 2 Area damage to target battlegroup. You may consume Lock On as part of this command to deal +2 Area damage to that Capital Ship or Escort. This damage cannot be Interdicted."
+      }
+    ]
+  }
+]

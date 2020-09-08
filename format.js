@@ -25,7 +25,15 @@ function itemTypeFormat(object) {
 
 function hullFormat(object) {
   let out = `[${object.points}] **${object.name}**\n`
-  out += `${itemTypeFormat(object)} | ${object.hp} HP, ${object.defense} Def\n`
+  out += `${itemTypeFormat(object)}`
+  if (object.hp || object.defense) {
+    let health_line = []
+    if (object.hp) health_line.push(`${object.hp} HP`)
+    if (object.defense) health_line.push(`${object.defense} Def`)
+    out += ` | ${health_line.join(', ')}\n`
+  } else {
+    out += `\n`
+  }
   if (object.tags && object.tags.length > 0) out += `${object.tags.join(', ')}\n`
   if (object.traits && object.traits.length > 0) {
     out += `${object.traits.map( trait => `\n**${trait.name}${trait.tags && trait.tags.length > 0 ? ` [${trait.tags.join(', ')}]` : ''}**: ${trait.description}` ).join('')}`
@@ -45,7 +53,7 @@ function weaponFormat(object) {
 }
 
 function systemFormat(object) {
-  let out = `[${object.points}] **${object.name}**\n`
+  let out = `[${object.points}] **${object.name}** (${itemTypeFormat(object)})\n`
   if (object.tags && object.tags.length > 0) out += `${object.tags.join(', ')}\n`
   if (object.traits && object.traits.length > 0) {
     out += `${object.traits.map( trait => `\n**${trait.name}${trait.tags && trait.tags.length > 0 ? ` [${trait.tags.join(', ')}]` : ''}**: ${trait.description}` ).join('')}`
@@ -163,9 +171,9 @@ module.exports = function (object) {
     case 'weapon':
       return weaponFormat(object);
     case 'escort':
-      return systemFormat(object);
+      return hullFormat(object);
     case 'wing':
-      return systemFormat(object);
+      return hullFormat(object);
     case 'system':
       return systemFormat(object);
   }
