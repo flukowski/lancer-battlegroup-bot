@@ -77,11 +77,10 @@
     "name": "Co-Consciousness Lance",
     "mount": "Superheavy",
     "points": 3,
-    "range": "5-3",
-    "damage": "20",
-    "tags": [ "Single Target", "Charge 4", "Reliable 10" ],
-    "effect": "This weapon cannot be used during the first round of combat as it requires preparatory calibration. Attacks with this weapon made closer than Long Range (4) gain Inaccurate.",
-    "description": "An NKP is essentially just a bundle of nearlight drives packed behind a dome-shaped micrometeorite shield. While frigates can, through the use of external bracket mounts, employ single-use skip drones in combat, only larger ships can fit NKPs into existing torpedo tubes or accelerator bays without substantial superstructural modification. NKPs are devastating — if crude and temperamental — weapons favored by states and navies with limited access to more advanced navspec ordinance."
+    "range": "3-0",
+    "damage": "2d6+2",
+    "tags": [ "Area Target", "Legionspace", "Reloading 4" ],
+    "effect": "This devastating systemic attack shatters an enemy fleet legion’s cohesion. After taking damage from this weapon, the target battlegroup has a 50 percent chance of being sent into disarray, rolling a die or flipping a coin to see as desired. If disrupted, that battlegroup must choose one; either they must take the first NPC turn of the next round but all of their rolls are made with +1 Difficulty, or they must act last in the next round after everyone else has taken their turn. If multiple battlegroups suffer from this disruption at once, they choose a viable turn order as needed."
   },
   {
     "id": "wp_primary_kinetic_batteries",

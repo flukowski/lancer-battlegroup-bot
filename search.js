@@ -31,8 +31,14 @@ const options = {
   location: 0,
   distance: 100,
   keys: [
-    "name",
-    "traits.name"
+    {
+      name: 'name',
+      weight: 0.75
+    },
+    {
+      name: 'traits.name',
+      weight: 0.25
+    }
   ]
 };
 
