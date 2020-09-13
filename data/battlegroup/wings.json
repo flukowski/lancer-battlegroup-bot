@@ -17,6 +17,7 @@
     "name": "Fighter Wing",
     "points": 1,
     "hp": "5",
+    "effect": "Each Fighter Wing adds +1 to your battlegroup’s Interdiction as they maintain combat patrols within your fleet’s perimeter, up to a maximum of +4 Interdiction.",
     "traits": [
       {
         "name": "Fighter Command (Tactic)",
