@@ -290,6 +290,6 @@
     "mount": "Auxiliary",
     "points": 2,
     "tags": [ "Limited 2" ],
-    "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target."
+    "effect": "When fired alongside any Primary weapon you launch a kinetic kill-cloud of projectiles that threatens enemies attempting to approach you along predicted routes. Choose your own battlegroup or an allied battlegroup in the same range band; until the end of your next turn, any Ace, Escort, or Wing that attacks or deals damage to the selected battlegroup automatically takes 1d6+1 damage each time they do so. A battlegroup can only benefit from one kill-cloud at a time."
   }
 ]
