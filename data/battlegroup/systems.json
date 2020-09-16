@@ -10,8 +10,8 @@
     "id": "insightful_commanders",
     "name": "Insightful Commanders",
     "points": 0,
-    "tags": [ "Reloading 2", "Unique" ],
-    "effect": "Whenever an enemy battlegroup would force you to move back or forward any number of range bands, you may ignore that movement. Until the end of your next turn, the next attack against you is made with +1 Difficulty."
+    "tags": [ "Reloading 3", "Unique" ],
+    "effect": "Whenever an enemy battlegroup would force you to move back or forward any number of range bands, you may ignore that movement. Until the end of your next turn, all attacks against you are made with +1 Difficulty."
   },
   {
     "id": "veteran_crews",
@@ -38,7 +38,7 @@
     "id": "piper_drones",
     "name": "Piper Drones",
     "points": 0,
-    "tags": [ "Limited 1" ],
+    "tags": [ "Limited 1", "Unique" ],
     "effect": "During the Logistics Step, you may add 1 flight counter to an active enemy Payload attack."
   },
   {
@@ -155,12 +155,12 @@
     "name": "Subjective Syzygy",
     "points": 2,
     "tags": [ "Legionspace", "Reloading 3", "Unique" ],
-    "effect": "When an enemy attacks a ship in your battlegroup with a Single Target attack, you may force them to roll twice and take the worst result."
+    "effect": "When an enemy attacks a ship in your battlegroup or an allied ship in your range band with a Single Target attack, you may force them to roll twice and take the worst result."
   },
   {
     "id": "subaltern_combat_crews",
     "name": "Subaltern Combat Crews",
-    "points": 1,
+    "points": 2,
     "tags": [ "Reloading 3", "Unique" ],
     "effect": "You may use an additional Tactic during the Action Step of your turn."
   },
@@ -168,7 +168,7 @@
     "id": "echopraxic_imago",
     "name": "Echopraxic Imago",
     "points": 1,
-    "tags": [ "Legionspace", "Boarding", "Tenacity 10", "Unique", "Range 3-0" ],
+    "tags": [ "Legionspace", "Boarding", "Tenacity 10", "Unique", "Range 5-3" ],
     "traits": [
       {
         "name": "Echopraxic Imago (Tactic)",
@@ -201,9 +201,9 @@
         "description": "One Capital Ship in your battlegroup gains 5 Overshield."
       },
       {
-        "name": "Rockshot (Maneuver)",
+        "name": "Slingshot (Maneuver)",
         "tags": [ "Area Attack", "Payload", "Limited 1", "Range 3-1" ],
-        "description": "This special Maneuver lobs asteroids and debris at an enemy battlegroup of your choice, dealing 6 Damage. You may also expend Lithoscreen uses when you use this Maneuver to add +2 damage for each use expended this way."
+        "description": "This special Maneuver lobs asteroids and debris at an enemy battlegroup of your choice, dealing 8 Damage. You may also expend Lithoscreen uses when you use this Maneuver to add +2 damage for each use expended this way."
       }
     ],
     "effect": "Your battlegroup gains +2 Interdiction."

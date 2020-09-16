@@ -2,8 +2,8 @@
   {
     "id": "hc_amazon",
     "name": "GMS Amazon Class Line Carrier",
-    "points": 5,
-    "hp": "12",
+    "points": 4,
+    "hp": "14",
     "defense": "13",
     "tags": [ "4 Wings" ],
     "traits": [
@@ -13,16 +13,16 @@
       },
       {
         "name": "Rapid Printing (Trait)",
-        "tags": [ "Limited 3" ],
-        "description": "The Amazon Class Line Carrier has enhanced flight decks with Limited 3 rapid printing systems. 1/round, during the Logistics Step you may expend a use to repair a Wing equipped to this ship to full HP."
+        "tags": [ "Limited 2" ],
+        "description": "The Amazon Class Line Carrier has enhanced flight decks with Limited 2 rapid printing systems. 1/round, during the Logistics Step you may expend a use to repair a Wing equipped to this ship to full HP, even from 0 HP."
       }
     ]
   },
   {
     "id": "hc_tongass",
     "name": "GMS Tongass Class Line Carrier",
-    "points": 6,
-    "hp": "12",
+    "points": 5,
+    "hp": "14",
     "defense": "13",
     "tags": [ "2 Auxiliary", "2 Escorts" ],
     "traits": [
@@ -39,8 +39,8 @@
   {
     "id": "hc_farragut",
     "name": "HA Farragut Class Starfield Carrier",
-    "points": 6,
-    "hp": "14",
+    "points": 5,
+    "hp": "16",
     "defense": "12",
     "tags": [ "1 Primary", "1 Modular", "2 Wings" ],
     "traits": [
@@ -61,8 +61,8 @@
   {
     "id": "hc_tagetes",
     "name": "FKS Tagetes Class Agile Carrier",
-    "points": 7,
-    "hp": "12",
+    "points": 6,
+    "hp": "14",
     "defense": "14",
     "tags": [ "1 System", "3 Wings" ],
     "traits": [
@@ -79,8 +79,8 @@
   {
     "id": "hc_tawa",
     "name": "IPS-N Tawa Class Medium Carrier",
-    "points": 5,
-    "hp": "14",
+    "points": 4,
+    "hp": "16",
     "defense": "11",
     "tags": [ "1 Escort", "1 System", "2 Wings" ],
     "traits": [
@@ -97,8 +97,8 @@
   {
     "id": "hc_masauwu",
     "name": "IPS-N Masauwu Class Heavy Carrier-Frame",
-    "points": 7,
-    "hp": "14",
+    "points": 6,
+    "hp": "16",
     "defense": "10",
     "tags": [ "2 Escorts", "2 Wings" ],
     "traits": [

@@ -6,7 +6,7 @@
     "points": 0,
     "range": "4-0",
     "damage": "12",
-    "tags": [ "Single Target", "Charge 3", "Reliable 3" ],
+    "tags": [ "Single Target", "Charge 3", "Critical", "Reliable 3" ],
     "description": "The galactic standard for any ship of the line, LCPLs encompass a wide category of cannon and particle beam which all effect the same end: the immediate and total destruction of the enemy on a square hit. With balanced spool times and high output, an LCPL is a reliable main gun for any ship that can field it."
   },
   {
@@ -26,7 +26,7 @@
     "points": 2,
     "range": "5-2",
     "damage": "15",
-    "tags": [ "Single Target", "Charge 3" ],
+    "tags": [ "Single Target", "Charge 3", "Critical" ],
     "effect": "This weapon does not take the +1 Difficulty penalty for targeting Escorts. On hit or miss, this weapon deals 5 damage to another Capital Ship or Escort in that target’s battlegroup. If there are no other targets in the battlegroup, this ability has no effect.",
     "description": "An old workhorse, the linear accelerator coherent beam cannon once marked the pinnacle of energy weapon development. Reliable at middle-confidence ranges and, with modern power systems, capable of rapid cycling main battery fire, a LinAc CBC is nonetheless still a formidable weapon favored by conservative captains."
   },
@@ -48,7 +48,7 @@
     "points": 3,
     "range": "5-3",
     "damage": "20",
-    "tags": [ "Single Target", "Charge 4", "Reliable 10" ],
+    "tags": [ "Single Target", "Charge 4", "Critical", "Reliable 10" ],
     "description": "First developed by Harrison Armory, STL main guns were introduced to Union Navy and Baronic Unified Command via GMS’s Systems Normalization department. Adapted from a now stagnant branch of theoretical faster-than-light travel, the Tachyon lance is a devastating weapon best used at extreme to long ranges, but suffers up close."
   },
   {
@@ -69,7 +69,7 @@
     "points": 3,
     "range": "5-4",
     "damage": "25",
-    "tags": [ "Single Target", "Payload" ],
+    "tags": [ "Single Target", "Payload -1" ],
     "description": "Using a scaled-up version of Union’s standard two-stage ACT system, Speartip torpedoes are long-range anti-capital payload delivery systems typically carried by the heaviest missile ships in any navy."
   },
   {
@@ -77,10 +77,10 @@
     "name": "Co-Consciousness Lance",
     "mount": "Superheavy",
     "points": 3,
-    "range": "3-0",
+    "range": "4-0",
     "damage": "2d6+2",
-    "tags": [ "Area Target", "Legionspace", "Reloading 4" ],
-    "effect": "This devastating systemic attack shatters an enemy fleet legion’s cohesion. After taking damage from this weapon, the target battlegroup has a 50 percent chance of being sent into disarray, rolling a die or flipping a coin to see as desired. If disrupted, that battlegroup must choose one; either they must take the first NPC turn of the next round but all of their rolls are made with +1 Difficulty, or they must act last in the next round after everyone else has taken their turn. If multiple battlegroups suffer from this disruption at once, they choose a viable turn order as needed."
+    "tags": [ "Area Target", "Legionspace", "Reloading 3" ],
+    "effect": "This devastating systemic attack shatters an enemy fleet legion’s cohesion and deals +2 damage for each non-Template Escort in the target battlegroup. After taking damage from this weapon, the target battlegroup must choose one; either they must take the first NPC turn of the next round but all of their rolls are made with +1 Difficulty, or they must act last in the next round after everyone else has taken their turn. If multiple battlegroups suffer from this disruption effect at once, they choose a viable turn order as needed."
   },
   {
     "id": "wp_primary_kinetic_batteries",
@@ -89,7 +89,7 @@
     "points": 0,
     "range": "2-0",
     "damage": "1d6+1",
-    "tags": [ "Single Target", "Reliable 1" ]
+    "tags": [ "Single Target", "Reliable 2" ]
   },
   {
     "id": "wp_short_cycle_lance_batteries",
@@ -97,17 +97,8 @@
     "mount": "Primary",
     "points": 0,
     "range": "3-0",
-    "damage": "4",
-    "tags": [ "Single Target", "Accurate" ]
-  },
-  {
-    "id": "wp_short_cycle_lance_batteries",
-    "name": "Short-Cycle Lance Batteries",
-    "mount": "Primary",
-    "points": 0,
-    "range": "3-0",
-    "damage": "4",
-    "tags": [ "Single Target", "Accurate" ]
+    "damage": "3",
+    "tags": [ "Single Target", "Accurate", "Critical" ]
   },
   {
     "id": "wp_conical_kinetic_projector",
@@ -116,7 +107,7 @@
     "points": 0,
     "range": "2-0",
     "damage": "1d3+5",
-    "tags": [ "Single Target" ],
+    "tags": [ "Single Target", "Critical" ],
     "effect": "Attacks with this weapon made further than Close Range (1) gain Inaccurate."
   },
   {
@@ -124,36 +115,29 @@
     "name": "Primary Single-Stage Torpedo",
     "mount": "Primary",
     "points": 0,
-    "range": "4-1",
+    "range": "4-2",
     "damage": "10",
-    "tags": [ "Single Target", "Payload" ]
+    "tags": [ "Single Target", "Payload -1" ]
   },
   {
-    "id": "wp_primary_single_stage_torpedo",
-    "name": "Primary Single-Stage Torpedo",
+    "id": "wp_tandem_spread_torpedo",
+    "name": "Tandem Spread Torpedoes",
     "mount": "Primary",
     "points": 0,
-    "range": "4-1",
-    "damage": "10",
-    "tags": [ "Single Target", "Payload" ]
-  },
-  {
-    "id": "wp_primary_single_stage_torpedo",
-    "name": "Primary Single-Stage Torpedo",
-    "mount": "Primary",
-    "points": 0,
-    "range": "4-1",
-    "damage": "10",
-    "tags": [ "Single Target", "Payload" ]
+    "range": "4-2",
+    "damage": "6",
+    "tags": [ "Single Target", "Payload -1" ],
+    "effect": "This weapon can attack two targets at a time, firing separate Payloads that are tracked individually."
   },
   {
     "id": "wp_ship_to_ship_missiles",
-    "name": "Ship-to-Ship Missiles",
+    "name": "Pinaka Ship-to-Ship Missiles",
     "mount": "Primary",
     "points": 0,
-    "range": "4-0",
-    "damage": "1d6+4",
-    "tags": [ "Area Target", "Payload -1" ]
+    "range": "3-0",
+    "damage": "1d6+1",
+    "tags": [ "Area Target", "Payload" ],
+    "effect": "When you attack with this weapon, if the target battlegroup’s Flagship is Locked On you may consume Lock On to increase this weapon’s damage by +3, but you must also increase its flight time by 1."
   },
   {
     "id": "wp_gemini_laser_array",
@@ -172,7 +156,7 @@
     "points": 1,
     "range": "4-1",
     "damage": "8",
-    "tags": [ "Single Target", "Payload", "Boarding", "Tenacity 11" ],
+    "tags": [ "Single Target", "Payload -1", "Boarding", "Tenacity 11" ],
     "effect": "A target that takes damage from this weapon is immediately boarded by subalterns and suffers the effects of a successful standard boarding action of your choice, but if this torpedo's damage is reduced to 0 or otherwise negated then the boarders are lost along with it. You may make multiple boarding actions with this weapon at a time"
   },
   {
@@ -180,7 +164,7 @@
     "name": "Heavy Kinetic Batteries",
     "mount": "Primary",
     "points": 1,
-    "range": "3-1",
+    "range": "4-1",
     "damage": "5",
     "tags": [ "Single Target", "Reliable 2" ]
   },
@@ -189,19 +173,29 @@
     "name": "Dorsal Razorback Missiles",
     "mount": "Primary",
     "points": 1,
-    "range": "3-0",
+    "range": "4-0",
     "damage": "1d6+6",
-    "tags": [ "Single Target", "Payload -1" ],
+    "tags": [ "Single Target", "Payload" ],
     "effect": "You may consume Lock On as part of firing this weapon to increase or decrease its flight time by 1."
+  },
+  {
+    "id": "wp_long_flight_active_control_missiles",
+    "name": "Long-Flight Active Control Missiles",
+    "mount": "Primary",
+    "points": 1,
+    "range": "5-2",
+    "damage": "1d6+8",
+    "tags": [ "Single Target", "Payload" ],
+    "effect": "While this weapon is in flight, if an enemy ship is Locked On you may consume Lock On to change its target to that ship. If this weapon's current target is destroyed before it impacts you may choose to have it remain active and not self-destruct, though if its flight time reaches 0 without a target it automatically self-destructs without any effect."
   },
   {
     "id": "wp_legionspace_schizm",
     "name": "Legionspace Schizm",
     "mount": "Primary",
     "points": 1,
-    "range": "3-0",
+    "range": "4-2",
     "damage": "3",
-    "tags": [ "Single Target", "Legionspace" ],
+    "tags": [ "Single Target", "Accurate", "Legionspace" ],
     "effect": "On hit, an allied battlegroup may advance one range band or that allied battlegroup may ignore enemy effects that would force it to move until the end of their next turn."
   },
   {
@@ -209,9 +203,9 @@
     "name": "Legionspace Still",
     "mount": "Primary",
     "points": 1,
-    "range": "3-0",
+    "range": "4-2",
     "damage": "3",
-    "tags": [ "Single Target", "Legionspace" ],
+    "tags": [ "Single Target", "Accurate", "Legionspace" ],
     "effect": "On hit, if the target’s battlegroup has any active Payload attacks, they must choose; either take +5 damage or add 1 flight counter to an active Payload attack of your choice."
   },
   {
@@ -220,18 +214,18 @@
     "mount": "Primary",
     "points": 2,
     "range": "2-0",
-    "damage": "1d6",
+    "damage": "1d6+1",
     "tags": [ "Single Target", "Reliable 3" ],
-    "effect": "Instead of attacking with this weapon normally, you may instead target one or two Aces or Wings and automatically deal 1d3+1 damage to them."
+    "effect": "Instead of attacking with this weapon normally, you may instead target one or two Aces or Wings and automatically deal 3 damage to them."
   },
   {
     "id": "wp_darkstar_multiple_warhead_torpedoes",
     "name": "Darkstar Multiple-Warhead Torpedoes",
     "mount": "Primary",
     "points": 2,
-    "range": "4-1",
-    "damage": "8",
-    "tags": [ "Area Target", "Payload" ],
+    "range": "4-2",
+    "damage": "6",
+    "tags": [ "Area Target", "Payload -1" ],
     "effect": "If this weapon’s damage is not completely Interdicted, it deals +1d6 damage applied after Interdiction."
   },
   {
@@ -248,7 +242,7 @@
     "name": "Secondary Kinetic Turrets",
     "mount": "Auxiliary",
     "points": 0,
-    "range": "2-0",
+    "range": "3-0",
     "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target."
   },
   {
@@ -256,16 +250,16 @@
     "name": "Flyswatter Missiles",
     "mount": "Auxiliary",
     "points": 0,
-    "range": "2-0",
-    "effect": "When fired alongside any Primary weapon, automatically deal 2 damage to target Ace and 1 damage to all Wings in target battlegroup."
+    "range": "3-0",
+    "effect": "When fired alongside any Primary weapon, automatically deal 2 damage to one or two Aces or Wings."
   },
   {
     "id": "wa_messenger_lead_laser",
     "name": "Messenger Lead Laser",
     "mount": "Auxiliary",
-    "points": 0,
+    "points": 1,
     "range": "4-1",
-    "effect": "This weapon does not fire alongside other weapons. Instead, whenever your battlegroup is within this weapon’s range all of your Payload attacks deal +1 damage for each Messenger Lead Laser equipped to your battlegroup, to a maximum of +4 damage."
+    "effect": "This weapon does not fire alongside other weapons. Instead, whenever your battlegroup is within this weapon’s range during the Logistics Step you may choose one of your Payload attacks that has reached 0 flight counters. That Payload attack deals +1 damage for each Messenger Lead Laser equipped to your battlegroup, to a maximum of +4 damage."
   },
   {
     "id": "wa_harbinger_confidence_lasers",
@@ -282,7 +276,7 @@
     "points": 1,
     "range": "2-0",
     "tags": [ "Interdiction" ],
-    "effect": "This weapon does not fire alongside other weapons. Instead, whenever any Ace, Escort, or Wing attacks or deals damage to a Capital Ship or Escort in your battlegroup they automatically take 1 damage each time they do so. In addition, while in this weapon’s effective range your battlegroup gains +1 Interdiction."
+    "effect": "When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 1 damage to that weapon’s target and 2 damage to an Ace or Wing. In addition, while in this weapon’s effective range your battlegroup gains +1 Interdiction for each Nearspace Directed Energy Perforator equipped to your battlegroup, to a maximum of +4 Interdiction."
   },
   {
     "id": "wa_cloudkill_kinetics",

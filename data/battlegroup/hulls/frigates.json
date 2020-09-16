@@ -3,7 +3,7 @@
     "id": "hf_caspian_sea",
     "name": "GMS Caspian Sea",
     "points": 3,
-    "hp": "14",
+    "hp": "16",
     "defense": "10",
     "tags": [ "1 Primary", "1 Auxiliary" ],
     "traits": [
@@ -17,13 +17,13 @@
     "id": "hf_huron",
     "name": "GMS Huron Class Frigate",
     "points": 3,
-    "hp": "14",
+    "hp": "16",
     "defense": "10",
     "tags": [ "1 Primary", "1 Auxiliary" ],
     "traits": [
       {
         "name": "Flak Screen (Trait)",
-        "description": "Whenever an Ace or Wing deals damage to any ship in your battlegroup, roll 1d20. On a 10+, that Ace or Wing takes 1d3+1 damage. When the Huron Class Frigate is assigned to a Defensive Screen, this roll automatically succeeds."
+        "description": "Whenever an Ace or Wing deals damage to any Capital Ship or Escort in your battlegroup, roll 1d20. On a 10+, that Ace or Wing takes 1d3+1 damage. When the Huron Class Frigate is assigned to a Defensive Screen, this roll automatically succeeds and applies to the battlegroup it is screening for."
       }
     ]
   },
@@ -31,7 +31,7 @@
     "id": "hf_superior",
     "name": "GMS Superior Class Frigate",
     "points": 3,
-    "hp": "14",
+    "hp": "16",
     "defense": "10",
     "tags": [ "1 Primary", "1 System" ],
     "traits": [
@@ -50,7 +50,7 @@
     "id": "hf_schuyler",
     "name": "HA Schuyler Class Frigate",
     "points": 4,
-    "hp": "12",
+    "hp": "14",
     "defense": "10",
     "tags": [ "2 Systems" ],
     "traits": [
@@ -65,7 +65,7 @@
     "id": "hf_creighton",
     "name": "HA Creighton Class Frigate",
     "points": 3,
-    "hp": "10",
+    "hp": "12",
     "defense": "10",
     "tags": [ "1 Superheavy" ],
     "traits": [
@@ -83,7 +83,7 @@
     "id": "hf_turenne",
     "name": "HA Turenne Class Frigate",
     "points": 4,
-    "hp": "10",
+    "hp": "12",
     "defense": "12",
     "tags": [ "2 Auxiliary", "1 System" ],
     "traits": [
@@ -97,7 +97,7 @@
     "id": "hf_cirsium",
     "name": "FKS Cirsium Class Frigate",
     "points": 4,
-    "hp": "12",
+    "hp": "14",
     "defense": "10",
     "tags": [ "1 Primary", "1 Escort" ],
     "traits": [
@@ -111,7 +111,7 @@
     "id": "hf_onopordum",
     "name": "FKS Onopordum Class Frigate",
     "points": 2,
-    "hp": "12",
+    "hp": "14",
     "defense": "10",
     "tags": [ "1 Primary" ],
     "traits": [
@@ -125,7 +125,7 @@
     "id": "hf_bakunawa",
     "name": "IPS-N Bakunawa Class Frigate",
     "points": 4,
-    "hp": "16",
+    "hp": "18",
     "defense": "8",
     "tags": [ "1 Primary", "1 Wing" ],
     "traits": [
@@ -139,7 +139,7 @@
     "id": "hf_laho",
     "name": "IPS-N Laho Class Frigate",
     "points": 4,
-    "hp": "16",
+    "hp": "18",
     "defense": "8",
     "tags": [ "1 Primary", "1 System" ],
     "traits": [
@@ -150,6 +150,42 @@
       {
         "name": "Torpedo Boat (Trait)",
         "description": "The Laho Class Frigate can only equip Primary weapons with the Payload tag."
+      }
+    ]
+  },
+  {
+    "id": "hf_minokawa",
+    "name": "IPS-N Minokawa Class Frigate",
+    "points": 4,
+    "hp": "18",
+    "defense": "8",
+    "tags": [ "1 Primary", "1 Escort" ],
+    "traits": [
+      {
+        "name": "Rapid Reaction Force (Trait)",
+        "description": "The Minokawa Class Frigate makes all rolls to repel boarders with +1 Accuracy. When this ship is assigned to a Defensive Screen, all boarding actions made against it and the ship it is screening are made with +1 Difficulty."
+      },
+      {
+        "name": "Patrol Cutter (Trait)",
+        "description": "The Minokawa Class Frigate can only equip Escorts with the Boarding tag."
+      }
+    ]
+  },
+  {
+    "id": "hf_tolumnia",
+    "name": "FKS Tolumnia Class Frigate",
+    "points": 5,
+    "hp": "16",
+    "defense": "10",
+    "tags": [ "2 Primary" ],
+    "traits": [
+      {
+        "name": "Synchronized Batteries (Trait)",
+        "description": "1/round when the Tolumnia Class Frigate consumes Lock On as part of an attack with one of its equipped Primary weapons, instead of gaining the usual bonus it may make an additional attack against that target with its other equipped Primary weapon. This attack is made with +1 Difficulty."
+      },
+      {
+        "name": "Specialized Mountings (Trait)",
+        "description": "The Tolumnia Class Frigate cannot equip weapons with the Payload tag."
       }
     ]
   }

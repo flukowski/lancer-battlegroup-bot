@@ -16,7 +16,8 @@
         "tags": [ "Range 3-0" ],
         "description": "Choose one Corvette Escort assigned to your battlegroup and give them one of the following commands: \n● Trade Blows \nDeal 2 damage to target Wing, or deal 4 damage to target Capital Ship and take 2 damage in return. \n● Defensive Formation \nAdd +2 to your battlegroup’s Interdiction until the start of your next turn. \n● Gun Run \nLimited 1 \nDeal 2 Area damage to target battlegroup. You may consume Lock On as part of this command to deal +2 Area damage to that Capital Ship or Escort. This damage cannot be Interdicted."
       }
-    ]
+    ],
+    "effect": "Designating targets for close fire support allows your Corvette Escorts to rapidly track and engage them. Whenever you Lock On to a target in range 3-0, automatically deal 1 damage to that target. "
   },
   {
     "id": "es_subline_picket",
@@ -29,6 +30,13 @@
     "name": "Payload Escort",
     "points": 2,
     "effect": "This special Escort has been tasked with providing your launched munitions with a protective escort, clearing the way for them to strike their targets. When you or an allied battlegroup in the same range band fire a weapon with the Payload tag, you may assign this squadron to escort it. During the Impact Step, add +1 to that Payload weapon’s damage for each flight counter removed from it before impact, and you may force the enemy battlegroup to reroll 1 Interdiction die and take the worse result. However if the damage from this escorted attack is reduced to 0 from Interdiction then this Escort is destroyed."
+  },
+  {
+    "id": "es_minelayers",
+    "name": "Minelayers",
+    "points": 2,
+    "tags": [ "Reloading 2" ],
+    "effect": "This special Escort is tasked with deploying minefields and does not have stats as normal. Instead, during the Logistics Step you may order this escort to deploy minefields in either the range band directly ahead of you or directly behind you. Until the next Logistics Step, the first time an enemy forces you or an allied battlegroup to move into or through that range band the mines detonate and the enemy battlegroup takes 10 Area damage. Minefields cannot stack with themselves"
   },
   {
     "id": "es_pipecleaner_subalterns",
@@ -73,8 +81,9 @@
       {
         "name": "Cruiser Command (Tactic)",
         "tags": [ "Range 3-0" ],
-        "description": "Choose one Cruiser Escort assigned to your battlegroup and give them one of the following commands: \n● Fire at Will \nDeal 4 damage to target Capital Ship. You may also deal 2 Area damage to all Escorts in that ship’s battlegroup and take 2 damage in return. This damage cannot be Interdicted. \n● Defensive Gunnery \nAdd +3 to your battlegroup’s Interdiction until the start of your next turn. \n● Local Kill Screen \nLimited 1 \nDeal 3 damage to all Wings in target battlegroup."
+        "description": "Choose one Cruiser Escort assigned to your battlegroup and give them one of the following commands: \n● Fire at Will \nDeal 4 damage to target Capital Ship. You may also deal 2 Area damage to all Escorts in that ship’s battlegroup and take 2 damage in return. This damage cannot be Interdicted. \n● Defensive Gunnery \nAdd +3 to your battlegroup’s Interdiction until the start of your next turn. \n● Local Kill Screen \nLimited 1 \nDeal 3 damage to target Capital Ship and all Wings equipped to it."
       }
-    ]
+    ],
+    "effect": "1/round whenever an enemy forces your battlegroup to fall back or move forward any number of range bands, you may have a Cruiser Escort deploy a field of seeker mines that deal 4 damage to a Capital Ship or Escort of your choice in that enemy battlegroup."
   }
 ]

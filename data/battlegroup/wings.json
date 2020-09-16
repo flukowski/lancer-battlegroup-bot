@@ -8,7 +8,7 @@
       {
         "name": "Legion Command (Tactic)",
         "tags": [ "Range 2-0" ],
-        "description": "Choose one Legion Drone Nexus assigned to your battlegroup and give them one of the following commands: \n● Hunt/Kill \nDeal 1 damage to target Capital Ship, Ace, Escort, or Wing \n● All In \nDeal 3 damage to target Capital Ship or Escort, then destroy this Wing"
+        "description": "Choose one or two Legion Drone Nexus assigned to your battlegroup and give them one of the following commands: \n● Hunt/Kill \nDeal 1 damage to target Capital Ship, Ace, Escort, or Wing \n● All In \nDeal 3 damage to target Capital Ship or Escort, then destroy this Wing"
       }
     ]
   },
@@ -50,6 +50,20 @@
         "name": "Mounted Chassis Command (Tactic)",
         "tags": [ "Range 3-0" ],
         "description": "Choose one Mounted Chassis Wing assigned to your battlegroup and give them one of the following commands: \n● Toe-to-Toe \nDeal 1d3 damage to target Capital Ship, Ace, Escort, or Wing. \n● Breach and Clear \nAssign this Wing to board an enemy Flagship. This Wing is effectively removed from play and cannot be damaged or targeted by attacks or effects while assigned this command. Each time you succeed on a boarding roll with this Wing, the boarded ship takes 2 damage"
+      }
+    ]
+  },
+  {
+    "id": "wi_barbarossa_chassis",
+    "name": "Barbarossa Chassis Wing",
+    "points": 3,
+    "hp": "8",
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Barbarossa (Tactic)",
+        "tags": [ "Range 3-0" ],
+        "description": "Give the Barbarossa Chassis Wing one of the following commands:\n● Siege Cannons\nDeal 1d3+1 damage to target Capital Ship or Escort.\n● Charge Apocalypse Rails\nReloading 2\nYou order the Barbarossa Chassis Wing to charge their integrated Apocalypse Rail weapons. During the next Impact Step you may order this Wing to open fire on a Capital Ship or Escort within range. Make a Single Target attack roll, and on hit deal 2d6 damage. If you consume Lock On as part of this attack, it gains Reliable 4."
       }
     ]
   }

@@ -66,7 +66,7 @@
       {
         "name": "Projected Blackshield (Tactic)",
         "tags": [ "Limited 1" ],
-        "description": "You or an allied battlegroup of your choice gains +3d6 Interdiction until the end of their next turn."
+        "description": "You or an allied battlegroup of your choice gains +3d6 Interdiction until the end of the next Impact Step."
       }
     ]
   },
