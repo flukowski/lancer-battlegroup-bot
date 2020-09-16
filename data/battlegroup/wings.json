@@ -65,6 +65,7 @@
         "tags": [ "Range 3-0" ],
         "description": "Give the Barbarossa Chassis Wing one of the following commands:\n● Siege Cannons\nDeal 1d3+1 damage to target Capital Ship or Escort.\n● Charge Apocalypse Rails\nReloading 2\nYou order the Barbarossa Chassis Wing to charge their integrated Apocalypse Rail weapons. During the next Impact Step you may order this Wing to open fire on a Capital Ship or Escort within range. Make a Single Target attack roll, and on hit deal 2d6 damage. If you consume Lock On as part of this attack, it gains Reliable 4."
       }
-    ]
+    ],
+    "effect": "A Barbarossa Chassis Wing's integrated flak launchers and anti-aerospace munitions count as an Auxiliary weapon for your battlegroup. When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort in range 3-0, automatically deal 3 damage to an Ace or Wing. "
   }
 ]
