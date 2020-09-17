@@ -1,0 +1,47 @@
+[
+  {
+    "id": "pa_olduvai_cross",
+    "name": "Olduvai Cross",
+    "effect": "Prior to a battle, players with this commendation may roll two d20s before any engagement and record the results: 1/battle them may, at any time, use one of those results in place of any d20 roll they make."
+  },
+  {
+    "id": "pa_interstellar_expeditionary_cross",
+    "name": "Interstellar Expeditionary Cross",
+    "effect": "1/battle, players with this commendation who are forced to move by an enemy effect or ability may choose to ignore that movement"
+  },
+  {
+    "id": "pa_communal_order_ribbon",
+    "name": "Communal Order Ribbon",
+    "effect": "1/battle, players with this commendation may reduce the damage taken by an allied Capital Ship in the same range band to 0. However their own Flagship then takes that much damage."
+  },
+  {
+    "id": "pa_marine_distinguished_service_medal",
+    "name": "Marine Distinguished Service Medal",
+    "effect": "1/battle, players with this commendation may reroll any boarding roll, but they must keep the second result."
+  },
+  {
+    "id": "pa_liberators_shield",
+    "name": "Liberator's Shield",
+    "effect": "1/battle, players with this commendation may immediately end any one ongoing effect on one of their ships, such as the effect of a boarding action, greywash counters, an effect imposing a Difficulty penalty, etc."
+  },
+  {
+    "id": "pa_meritorious_service_bar",
+    "name": "Meritorious Service Bar",
+    "effect": "1/battle, players with this commendation may reroll any Single Target attack roll they make, but they must take the second result."
+  },
+  {
+    "id": "pa_gallantry_cross",
+    "name": "Gallantry Cross",
+    "effect": "When a player with this commendation makes an Uptime Action roll prior to battle, on a result of 9- they may make a second Uptime Action if they wish. They must still accept the consequences of the first roll, and they cannot make the same Uptime Action twice."
+  },
+  {
+    "id": "pa_silver_crescent",
+    "name": "Silver Crescent",
+    "effect": "1/battle, players with this commendation may issue a command to a Wing equipped to their battlegroup for free during their turn."
+  },
+  {
+    "id": "pa_azure_star",
+    "name": "Azure Star",
+    "effect": "1/battle players with this commendation may automatically convert a successful attack into a critical hit or force an enemy critical hit to become a normal hit after seeing the result. Once used this accolade’s effect is permanently expended and cannot be used again. The Azure Star may be awarded to a player multiple times, refreshing the ability to use its effect again, but the benefit does not stack with itself."
+  }
+]

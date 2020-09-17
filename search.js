@@ -6,7 +6,8 @@ const {
   weapons,
   systems,
   escorts,
-  wings
+  wings,
+  accolades, legacies
 } = data
 
 const searchable = [
@@ -16,7 +17,9 @@ const searchable = [
   ...weapons.map(x => ({ ...x, data_type: 'weapon' })),
   ...systems.map(x => ({ ...x, data_type: 'system' })),
   ...escorts.map(x => ({ ...x, data_type: 'escort' })),
-  ...wings.map(x => ({ ...x, data_type: 'wing' }))
+  ...wings.map(x => ({ ...x, data_type: 'wing' })),
+  ...accolades.map(x => ({ ...x, data_type: 'accolade' })),
+  ...legacies.map(x => ({ ...x, data_type: 'legacy' })),
 ]
 
 const options = {

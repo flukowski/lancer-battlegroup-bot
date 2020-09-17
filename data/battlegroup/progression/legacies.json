@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pl_bloodthirsty",
+    "name": "Bloodthirsty",
+    "effect": "At the start of each battle, choose a weapon equipped to this ship. It gains the Critical tag."
+  },
+  {
+    "id": "pl_cursed",
+    "name": "Cursed",
+    "effect": "The first time each battle this ship would be destroyed, it survives with 1d6 HP. You may sacrifice equipped weapons and upgrades to increase this amount by +2 HP per weapon or upgrade sacrificed. This cannot leave a ship with more than its maximum HP."
+  },
+  {
+    "id": "pl_headstrong",
+    "name": "Headstrong",
+    "effect": "During the Logistics Step, you may remove 1 flight counter from an enemy Payload attack targeting this ship or this ship’s battlegroup."
+  },
+  {
+    "id": "pl_indomitable",
+    "name": "Indomitable",
+    "effect": "This ship begins each battle with 5 Overshield"
+  },
+  {
+    "id": "pl_lucky",
+    "name": "Lucky",
+    "effect": "This ship gains +2 Defense. You begin each battle with a banked Accuracy die which you can spend to add +1 Accuracy to one of your attack rolls during play"
+  },
+  {
+    "id": "pl_mighty",
+    "name": "Mighty",
+    "effect": "This ship may reroll the damage of any of its weapons on hit or impact, but it must take the second result."
+  },
+  {
+    "id": "pl_no_pasaran",
+    "name": "No Pasaran",
+    "effect": "Boarding actions made against this ship only succeed on a result of 10+"
+  },
+  {
+    "id": "pl_phoenix",
+    "name": "Phoenix",
+    "effect": "This ship gains 2 points that can be only spent on weapons or upgrades equipped to it. Whenever this ship is destroyed, regardless of how much damage it takes it is always salvageable afterwards, though the crew may not fare as well."
+  }
+]
