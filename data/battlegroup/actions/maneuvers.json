@@ -1,0 +1,22 @@
+[
+  {
+    "id": "man_retrograde_burn",
+    "name": "Retrograde Burn!",
+    "effect": "Your Battlegroup may fall back one range band or you may ignore the next enemy effect that would force it to move until the end of your next turn. Gain +1d6 Interdiction and all ships in your battlegroup gain +2 Defense until the end of your next turn."
+  },
+  {
+    "id": "man_all_ahead_full",
+    "name": "All Ahead Full!",
+    "effect": "Your Battlegroup may advance one range band forward, and you may fire one Primary weapon before or after advancing."
+  },
+  {
+    "id": "man_open_fire",
+    "name": "Open Fire!",
+    "effect": "Your Battlegroup remains in its current range band, devoting all extra power to its weapons. You may fire one Superheavy weapon, or up to two different Primary weapons."
+  },
+  {
+    "id": "man_ramming_speed",
+    "name": "Ramming Speed!",
+    "effect": "Ramming is not considered a standard combat doctrine by any major naval power, and capital ships are never designed with such actions in mind, but desperate times may call for desperate measures. You may only use this Maneuver at ​Close​ or ​Point Blank​ range. Advance your Battlegroup to Point Blank range, then choose one of your ships and an enemy capital ship; both ships take 2d6 damage that cannot be reduced in any way."
+  }
+]

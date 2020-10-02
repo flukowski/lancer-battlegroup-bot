@@ -2,12 +2,14 @@ const data = require('./data');
 const Fuse = require('fuse.js')
 
 const {
+  maneuvers, tactics,
   battleships, carriers, frigates,
   weapons,
   systems,
   escorts,
   wings,
-  accolades, legacies
+  accolades, legacies,
+  npc_flagships, npc_escorts,
 } = data
 
 const searchable = [
@@ -20,6 +22,10 @@ const searchable = [
   ...wings.map(x => ({ ...x, data_type: 'wing' })),
   ...accolades.map(x => ({ ...x, data_type: 'accolade' })),
   ...legacies.map(x => ({ ...x, data_type: 'legacy' })),
+  ...maneuvers.map(x => ({ ...x, data_type: 'maneuver' })),
+  ...tactics.map(x => ({ ...x, data_type: 'tactic' })),
+  ...npc_flagships.map(x => ({ ...x, data_type: 'npc_flagship' })),
+  ...npc_escorts.map(x => ({ ...x, data_type: 'npc_escort' })),
 ]
 
 const options = {

@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "npcf_turtleback",
+    "name": "Turtleback",
+    "hp": "35",
+    "defense": "6",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Reinforced Hull (Trait)",
+        "description": "Single Target attacks made against the Turtleback from range 5-4 deal half damage."
+      },
+      {
+        "name": "Heavy Kinetic Battery Fire (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Range 4-0", "6 Damage" ],
+        "description": "You may attack one or two targets with this maneuver."
+      },
+      {
+        "name": "Swarm Missile Volley (Maneuver)",
+        "tags": [ "Primary", "Area Target", "Payload", "Range 4-1", "1d6+2 Damage" ],
+        "description": "This weapon can attack two battlegroups at a time, firing separate Payloads that are tracked individually."
+      },
+      {
+        "name": "Inexorable Advance (Maneuver)",
+        "description": "The Turtleback gains 5 Overshield. Advance an enemy battlegroup one range band forward."
+      }
+    ]
+  }
+]

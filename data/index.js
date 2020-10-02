@@ -1,3 +1,6 @@
+const maneuvers = require("./battlegroup/actions/maneuvers.json");
+const tactics = require("./battlegroup/actions/tactics.json");
+
 const battleships = require("./battlegroup/hulls/battleships.json");
 const carriers = require("./battlegroup/hulls/carriers.json");
 const frigates = require("./battlegroup/hulls/frigates.json");
@@ -25,6 +28,8 @@ let data = {
   npc_escorts: npc_escorts,
   accolades: accolades,
   legacies: legacies,
+  maneuvers: maneuvers,
+  tactics: tactics,
 }
 
 // const altNamesTransform = require('./altNames')

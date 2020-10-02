@@ -22,18 +22,28 @@ function itemTypeFormat(object) {
       return 'Accolade'
     case 'legacy':
       return 'Legacy'
+    case 'maneuver':
+      return 'Maneuver'
+    case 'tactic':
+      return 'Tactic'
+    case 'npc_flagship':
+      return 'NPC Flagship'
+    case 'npc_escort':
+      return 'NPC Escort'
     default:
       return '';
   }
 }
 
 function hullFormat(object) {
-  let out = `[${object.points}] **${object.name}**\n`
+  let points_text = object.points ? `[${object.points}] ` : ''
+  let out = `${points_text}**${object.name}**\n`
   out += `${itemTypeFormat(object)}`
   if (object.hp || object.defense) {
     let health_line = []
     if (object.hp) health_line.push(`${object.hp} HP`)
     if (object.defense) health_line.push(`${object.defense} Def`)
+    if (object.interdiction) health_line.push(`${object.interdiction} Int`)
     out += ` | ${health_line.join(', ')}\n`
   } else {
     out += `\n`
@@ -67,7 +77,7 @@ function systemFormat(object) {
   return out
 }
 
-function progressionFormat(object) {
+function simpleFormat(object) {
   let out = `**${object.name}** (${itemTypeFormat(object)})\n`
   if (object.effect) out += `\n${object.effect}`
   return out
@@ -76,6 +86,10 @@ function progressionFormat(object) {
 module.exports = function (object) {
   console.log(object)
   switch (object.data_type) {
+    case 'npc_flagship':
+      return hullFormat(object);
+    case 'npc_escort':
+      return hullFormat(object);
     case 'battleship':
       return hullFormat(object);
     case 'carrier':
@@ -91,8 +105,12 @@ module.exports = function (object) {
     case 'system':
       return systemFormat(object);
     case 'accolade':
-      return progressionFormat(object);
+      return simpleFormat(object);
     case 'legacy':
-      return progressionFormat(object);
+      return simpleFormat(object);
+    case 'maneuver':
+      return simpleFormat(object);
+    case 'tactic':
+      return simpleFormat(object);
   }
 }

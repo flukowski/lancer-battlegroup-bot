@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tac_lock_firing_solution",
+    "name": "Lock Firing Solution",
+    "effect": "You route legion processing power towards lining up a perfect shot or tracking an especially wiley target, and share the revised telemetry with the rest of the fleet. Nominate an enemy Capital Ship or Escort; that target gains the ​Lock On​ condition. Any battlegroup making a Single Target attack against a ship with the locked on condition may choose to gain +1 Accuracy on their attack roll, and then clear the Lock On condition after the attack resolves (hit or miss). This is called consuming Lock On. Lock On lasts until it is consumed ​or until the end of the next Impact Step, at which point ships are assumed to have maneuvered enough to render the targeting data obsolete. Lock On does not stack; a target ship is either Locked On or not. "
+  },
+  {
+    "id": "tac_careful_shot",
+    "name": "Careful Shot",
+    "effect": "By ordering your gunnery crews to carefully place their fire or by adjusting weapon power outputs you can attempt to deliver an attack that aims to destroy an enemy without completely annihilating it outright. Until the end of your next turn, your battlegroup's attacks cannot reduce an enemy ship below 0 HP and cannot critically hit. This effect does not apply to Superheavy, Charge, or Payload weapons, as those are simply too powerful to effectively reduce or precisely aim in any meaningful capacity; even a glancing blow with a long-spool weapon is enough to cause catastrophic damage on impact. If reduced to 0 HP, you may have the target of this attack be rendered combat-ineffective instead of destroyed; it is dead in the water, unable to flee or present a threat. This tactic is mostly useful for attempting to avoid the more destructive results on the Kill Table on page XX, should the players wish to capture an enemy ship intact (more or less) for narrative reasons. Be aware that even “careful” shots with naval weaponry are still massively powerful and destructive. Mechanically the ship has been disabled, but narratively your careful shooting may have still struck critical components, caused a breach in the starboard fusion chamber, or exposed compartments to hard vacuum."
+  },
+  {
+    "id": "tac_defensive_screen",
+    "name": "Defensive Screen",
+    "effect": "During fleet engagements, a common strategy is to task smaller ships with providing a defensive screen for larger vessels such as carriers or battleships, protecting them while they coordinate fighter-tier activities or bring devastating weapons to bear. This Tactic can only be used by a battlegroup that contains at least one active Frigate-type vessel; carriers and battleships are too ponderous to provide effective screening.  At the start of your turn, choose a Frigate under your command and assign it to screen for another Capital Ship in your battlegroup ​or assign it to screen for a Capital Ship in an allied battlegroup within the same range band. Until the start of your next turn, whenever the screened ship is targeted with attacks or abilities they have a 50 percent chance of being intercepted, and the enemy must either abort their attack or ability, wasting their action, or target the screening Frigate instead. Roll a die or flip a coin to determine this. Frigates on protective duty cannot make attacks or use weapons except for Auxiliary weapons as they are concentrating on intercepting incoming threats, and if the screening Frigate is destroyed this ability can no longer be used until another Frigate is assigned to provide a defensive screen. Only a single Frigate can screen for another ship at a time, and Frigates cannot screen for Frigates that are also screening."
+  },
+  {
+    "id": "tac_deploy_boarders",
+    "name": "Deploy Boarders",
+    "effect": "Choose an Escort or Wing with the Boarding tag and assign it board an enemy Flagship within range. Once a particular unit or System has been assigned to board an enemy ship, they can no longer be used for any other purposes until that boarding action ends."
+  }
+]
