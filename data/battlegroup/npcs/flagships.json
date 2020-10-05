@@ -25,5 +25,336 @@
         "description": "The Turtleback gains 5 Overshield. Advance an enemy battlegroup one range band forward."
       }
     ]
+  },
+  {
+    "id": "npcf_starkiller",
+    "name": "Starkiller",
+    "hp": "25",
+    "defense": "12",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Long-Range Targeting Array (Trait)",
+        "description": "The Starkiller makes Single Target attacks against ships in range 5-4 with +1 Accuracy."
+      },
+      {
+        "name": "Starkiller Cannon (Charge)",
+        "tags": [ "Superheavy", "Single Target", "Charge 3", "Critical", "Range 5-3", "15 Damage" ]
+      },
+      {
+        "name": "Kill-Point Targeting Laser (Maneuver)",
+        "tags": [ "Auxiliary", "Single Target", "Range 5-1" ],
+        "description": "Automatically deal 2 damage to target enemy capital ship and apply ​Lock On​ to it. The Starkiller gains +1 Accuracy to attacks with the ​Starkiller Cannon​ against that target until the end of its next turn."
+      },
+      {
+        "name": "Reroute Spinal Charge (System)",
+        "tags": [ "System", "Reloading 3" ],
+        "description": "At the end of its turn the Starkiller may choose one: -Add 1 charging counter to the ​Starkiller Cannon​ to gain +1d6 Interdiction and +2 Defense until the end of its next turn or - Push an enemy battlegroup back one range band. If you add 1 charging counter to the ​Starkiller Cannon​ you may push them back two range bands instead."
+      }
+    ]
+  },
+  {
+    "id": "npcf_needleship",
+    "name": "Needleship",
+    "hp": "20",
+    "defense": "14",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Ancient Star (Maneuver)",
+        "tags": [ "Superheavy", "Single Target", "Payload", "Range 5-3", "10 Damage" ],
+        "description": "This weapon deals +1d6 damage when launched at targets in range 4, or +2d6 damage when launched at targets in range 3."
+      },
+      {
+        "name": "Assess Reality (Maneuver)",
+        "description": "The Needleship’s cogent mind confounds your targeting systems, throwing its vessel into staggering counterfactuals behind a howling screen of systemic noise. The Needleship gains Overshield 5 and advances or pushes back an enemy battlegroup one range band."
+      },
+      {
+        "name": "Shattered Reflection (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Legionspace", "Range 2-0", "5 Damage" ],
+        "description": "On hit the target must choose; take +5 damage ​or deal half damage with all attacks until the end of their next turn."
+      },
+      {
+        "name": "Cogent Endpoint (Tactic)",
+        "tags": [ "Legionspace", "Reloading 2" ],
+        "description": "The Needleship’s Cogent Mind releases a tightbeam communications blast at an enemy target, confounding the ship’s sensors and targeting suites. Make an attack against a target enemy ship. On hit, add one flight counter to any active Payload attacks fired by that ship, and that ship cannot benefit from Accuracy on its attack rolls until the end of their next turn except to cancel out Difficulty."
+      }
+    ]
+  },
+  {
+    "id": "npcf_highline",
+    "name": "Highline",
+    "hp": "20",
+    "defense": "10",
+    "interdiction": "1d6+4",
+    "traits": [
+      {
+        "name": "Curtain Call Proactive Defense Screen (Trait)",
+        "description": "The Highline or an allied Flagship of its choice gains 5 Overshield at the start of the Logistics Step. While a ship has Overshield from this trait, any Escort or Wing that damages any ship in its battlegroup takes 2 damage. Overshield applied to allies this way lasts until the start of the next Logistics Step."
+      },
+      {
+        "name": "Cloudkill Batteries (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Reliable 2", "Range 3-0", "7 Damage" ],
+        "description": "Attacks with this weapon made against targets further than range 2 gain Inaccurate. On hit, all Escorts and Wings in the target ship’s battlegroup take 1 damage."
+      },
+      {
+        "name": "Aggression Wall (Maneuver)",
+        "tags": [ "Reloading 2" ],
+        "description": "Advance an enemy battlegroup one range band forward, then deal 1d3 damage to all enemy Escorts and Wings in one range band within range 2-0."
+      },
+      {
+        "name": "Firewall (System)",
+        "tags": [ "System", "Reloading 2" ],
+        "description": "The Highline launches a spread of burnout directed-energy munitions that rapidly track targets and fire until depleted. During the Logistics Step, choose one range band from 3-2. Until the next Logistics Step, any enemy battlegroup that ends their turn in the chosen range band takes 4 Area damage that cannot be Interdicted, and any enemy Wings issued commands from within the chosen range band first take 1d3 damage. If this damage is enough to destroy a Wing, its effects are negated."
+      }
+    ]
+  },
+  {
+    "id": "npcf_breakwater",
+    "name": "Breakwater",
+    "hp": "25",
+    "defense": "10",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Launch Bays (Trait)",
+        "description": "The Breakwater carries a complement of 4 Wings of heavy fighter/bombers into action along with it (5/5/5/5 HP) with a range of 3-0. During the Logistics Step it may repair one of its Wings to full HP. The Breakwater gains +1 Interdiction for each of this Trait’s remaining Wings, and it gains +2 Defense as long as at least one of this Trait’s Wings remains."
+      },
+      {
+        "name": "Flak Batteries (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Accurate", "Range 2-0", "4 Damage" ],
+        "description": "On hit, deal 2 damage to all Escorts and Wings equipped to that target. If all of the Breakwater’s Wings are destroyed, you may attack one or two targets with this maneuver."
+      },
+      {
+        "name": "Refuel and Rearm (Maneuver)",
+        "tags": [ "Reloading 2" ],
+        "description": "Push one or two enemy battlegroups back one range band, then repair up to two of the Breakwater’s Wings to full HP. If all of the Breakwater’s Wings are destroyed, you may advance an enemy battlegroup one range band instead."
+      },
+      {
+        "name": "All Wings, Attack! (Tactic)",
+        "description": "The Breakwater scrambles one or two of its Wings and gives them one of the following commands. You may select the same or different commands for each: Dogfight - Deal 1 damage to target Ace or Wing, or deal 3 damage to target Ace or Wing and take 2 damage. / Bombing Run (Reloading 2) - Deal 1d3+1 damage to target Capital Ship or Escort. / Close Support - The Breakwater directs one of its Wings to provide close fire support to one of its allies, disrupting and confounding their target’s defenses. Choose an allied battlegroup and an enemy battlegroup. That ally gains +1 Accuracy to all attacks against ships in that battlegroup until the end of their next turn."
+      }
+    ]
+  },
+  {
+    "id": "npcf_triton_mdp",
+    "name": "Triton MDP",
+    "hp": "25",
+    "defense": "6",
+    "interdiction": "3d6",
+    "traits": [
+      {
+        "name": "Defensive Constellation (Trait)",
+        "description": "1/round the Triton or an allied Flagship may reroll one of its Interdiction dice, but must keep the second result."
+      },
+      {
+        "name": "Swarm Missile Volley (Maneuver)",
+        "tags": [ "Primary", "Area Target", "Payload", "Range 4-1", "1d6+2 Damage" ],
+        "description": "This weapon can attack two battlegroups at a time, firing separate Payloads that are tracked individually."
+      },
+      {
+        "name": "Chaperone Cloud Projector (Tactic)",
+        "tags": [ "Reloading 2" ],
+        "description": "The Triton fires a ​Chaperone Cloud ahead of an allied Flagship at matching speed. It screens the ship’s trajectory, adding +1d6 to that Flagship’s Interdiction until the end of its next turn. Then one enemy battlegroup must choose; be pushed back one range band ​or they take 1d6+1 Area damage."
+      },
+      {
+        "name": "Damage Control Teams (System)",
+        "tags": [ "Limited 2" ],
+        "description": "During the Logistics Step, the Triton may dispatch damage control teams to repair 5 HP to itself or an allied Flagship."
+      }
+    ]
+  },
+  {
+    "id": "npcf_cornicen",
+    "name": "Cornicen",
+    "hp": "25",
+    "defense": "10",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Cogent Mind (Trait)",
+        "description": "The Cornicen is a solid-state ship. It is immune to critical hits and boarding actions against it only succeed on a result of 10+."
+      },
+      {
+        "name": "No Repro Munitions (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Greywash", "Range 3-0" ],
+        "description": "On a hit, apply 3 greywash counters to the target ship."
+      },
+      {
+        "name": "Achiral Abolition (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Legionspace", "Reloading 4", "Range 4-3" ],
+        "description": "This Maneuver deals no damage on hit. Instead, if the attack succeeds the target is hit by Achiral Abolition, a potent systemic attack that disrupts a ship’s fleetmind connections. Targets hit by this attack cannot use Maneuvers or Tactics until the end of their next turn; any Charge weapons equipped to the target are “paused” while under the effects of this attack. Advance an enemy battlegroup one range band before or after making this attack."
+      },
+      {
+        "name": "Excite (Tactic)",
+        "tags": [ "Reloading 3" ],
+        "description": "The Cornicen may only use this Tactic if at least one enemy has a greywash counter. Each enemy ship doubles the number of greywash counters on it. Push one enemy battlegroup with at least 1 greywash counter back one range band."
+      }
+    ]
+  },
+  {
+    "id": "npcf_phantasm",
+    "name": "Phantasm",
+    "hp": "18",
+    "defense": "14",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Caloric Plume (Trait",
+        "description": "The Phantasm is wreathed in obfuscating clouds of waste heat, purposefully hiding its hull from enemy scopes and weapon systems. Single Target attacks against the Phantom are made with +1 Difficulty."
+      },
+      {
+        "name": "Killdart CNAL (Charge)",
+        "tags": [ "Superheavy", "Single Target", "Charge 3", "Range 4-1", "15 Damage" ],
+        "description": "The final attack roll for this attack can never be affected by Difficulty."
+      },
+      {
+        "name": "High-Precision Railgun (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Accurate", "Critical", "Reloading 2", "Range 4-2", "5 Damage" ],
+        "description": "Push an enemy battlegroup back one range band before or after making this attack. On critical hit you may push that battlegroup back an additional range band."
+      },
+      {
+        "name": "Signal to Noise (Tactic)",
+        "description": "The Phantom​ Locks On​ to an enemy Capital Ship, and may then clear ​Lock On​ from itself or an Escort in its battlegroup. If ​Lock On​ is cleared in this way you may also advance or push back an enemy battlegroup one range band."
+      }
+    ]
+  },
+  {
+    "id": "npcf_man_o'war",
+    "name": "Man O'War",
+    "hp": "30",
+    "defense": "6",
+    "interdiction": "2d6",
+    "traits": [
+      {
+        "name": "Demisolar Lance (Charge)",
+        "tags": [ "Superheavy", "Accurate", "Charge 4", "Critical", "Range 5-3", "20 Damage" ],
+        "description": "Each time this weapon removes a charging counter, deal 1 damage to an enemy Capital Ship in range 5-3."
+      },
+      {
+        "name": "Counter-Battery Fire (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Reliable 2", "Range 4-0", "6 Damage" ],
+        "description": "On hit, the target suffers +2 Difficulty to all Single Target attack rolls until the end of their next turn."
+      },
+      {
+        "name": "Pulse-Pack Missiles (System)",
+        "tags": [ "System", "Reloading 2" ],
+        "description": "The Man O’War launches a massive volley of multi-warhead missiles that blanket an area in devastating explosions and deadly radiation. During the Logistics Step, choose one range band from 4-3. Until the next Logistics Step, any enemy battlegroup that ends their turn in the chosen range band takes 2d6 Area damage."
+      },
+      {
+        "name": "Inexorable Advance (Maneuver)",
+        "description": "The Man O’War gains 5 Overshield. Advance an enemy battlegroup one range band forward."
+      }
+    ]
+  },
+  {
+    "id": "npcf_paladin",
+    "name": "Paladin",
+    "hp": "25",
+    "defense": "8",
+    "interdiction": "2d6",
+    "traits": [
+      {
+        "name": "RED GIANT Solar Lance (Charge)",
+        "tags": [ "Superheavy", "Charge 3", "Reliable 5", "Range 5-2", "15 Damage" ],
+        "description": "After taking damage from this weapon on a successful hit, the target ship has a 50 percent chance of suffering catastrophic ionization, rolling a die or flipping a coin to see as desired. On a failure, that ship makes all attacks with +1 Difficulty and all of its equipped System upgrades are disabled until the end of its next turn."
+      },
+      {
+        "name": "Supernova Multi-Stage Torpedo (Maneuver)",
+        "tags": [ "Primary", "Area Target", "Payload", "Range 3-0", "8 Damage" ],
+        "description": "After this attack impacts, if the target battlegroup remains in the same range band at the end of their next turn they take an additional 2d6 Area damage."
+      },
+      {
+        "name": "Coordinated Advance (Tactic)",
+        "tags": [ "Reloading 2" ],
+        "description": "Advance an enemy battlegroup one range band forward."
+      },
+      {
+        "name": "Low-Albedo Plating (System)",
+        "tags": [ "System", "Reloading 3" ],
+        "description": "At the start of the Logistics Step the Paladin may expose its Low Albedo Plating stripes, confounding active targeting systems. Until the next Logistics Step, the Paladin gains +4 Defense."
+      }
+    ]
+  },
+  {
+    "id": "npcf_narcissus",
+    "name": "Narcissus",
+    "hp": "20",
+    "defense": "10",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Lagoon Shielding (Trait)",
+        "description": "The Narcissus begins battle with 6 Overshield and +2 Defense. When the Narcissus is reduced to 0 Overshield, this Defense bonus is lost and this trait is permanently disabled. "
+      },
+      {
+        "name": "Veil Cannon (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Range 3-0", "5 Damage" ],
+        "description": "On hit, clear ​Lock On​ from any ship of your choice and the Narcissus gains +1d6 Interdiction until the end of its next turn. Advance an enemy battlegroup one range band forward before or after making this attack."
+      },
+      {
+        "name": "Outbound Inbound (Maneuver)",
+        "tags": [ "Primary", "Single Target", "Payload -1", "Range 4-1", "1d6+4 Damage" ],
+        "description": "Lock On​ to this attack’s target, then choose an active enemy Payload attack and redirect it towards an allied Flagship or battlegroup of your choice, including the Narcissus or its battlegroup. If there are no active enemy Payload attacks, this maneuver cannot be used."
+      },
+      {
+        "name": "Temperature Inversion (Tactic)",
+        "tags": [ "Reloading 3" ],
+        "description": "Choose one; the Narcissus may add 1 counter to the flight time of any active Payload attack targeting it or its battlegroup ​or the Narcissus gains +4 Interdiction until the end of its next turn."
+      }
+    ]
+  },
+  {
+    "id": "npcf_hivequeen",
+    "name": "Hivequeen",
+    "hp": "30",
+    "defense": "8",
+    "interdiction": "2d6",
+    "traits": [
+      {
+        "name": "Cogent Mind (Trait)",
+        "description": "The Hivequeen is a solid-state ship. It is immune to critical hits and boarding actions against it only succeed on a result of 10+."
+      },
+      {
+        "name": "K-Drone Pack (Maneuver)",
+        "tags": [ "Primary", "Payload", "Range 4-2" ],
+        "description": "This spread of weaponized drones can be launched in multiple configurations. When you fire this weapon you may treat it as a Single Target attack dealing 1d6+6 damage or an Area Target attack dealing 1d6+3 damage, and you may also increase or decrease its flight time by 1. Push an enemy battlegroup one range band back before or after making this attack."
+      },
+      {
+        "name": "Infestation (Tactic)",
+        "tags": [ "Boarding", "Tenacity 11", "Range 3-0" ],
+        "description": "The Hivequeen launches a breaching pod that disgorges a drone swarm into an enemy Capital Ship, boarding them. ​Lock On​ to that ship. During the Boarding Step, roll 1d20. On an 8+, that ship takes 3 damage and automatically becomes ​Locked On​ at the start of the next Action Step. If this roll doesn't succeed you may continue to attempt this boarding action each Boarding Step until you either succeed or the boarded ship repels them. You may have up to two ships boarded this way at one time."
+      },
+      {
+        "name": "Sapper Drones (System)",
+        "tags": [ "System", "Reloading 2" ],
+        "description": "The Hivequeen launches a spread of long-flight drones that remain powered down until they detect nearby enemy vessels. During the Logistics Step, choose one range band from 5-4. Until the next Logistics Step, any enemy battlegroup that ends their turn in the chosen range band takes 1d6+1 Area damage, and all ships in that battlegroup make attacks with +1 Difficulty until the end of their next turn."
+      }
+    ]
+  },
+  {
+    "id": "npcf_corsair",
+    "name": "Corsair",
+    "hp": "25",
+    "defense": "10",
+    "interdiction": "1d6",
+    "traits": [
+      {
+        "name": "Motley Crew (Trait)",
+        "description": "The Corsair carries a complement of 4 Wings of mounted chassis into action along with it (5/5/5/5 HP, Boarding, Tenacity 12) with a range of 3-0. 1/round during the Logistics Step it may sacrifice one of these Wings to gain 5 Overshield."
+      },
+      {
+        "name": "Scrapcaster (Maneuver)",
+        "tags": [ "Superheavy", "Single Target", "Reloading 2", "Inaccurate", "Range 2-0", "4d6 Damage" ]
+      },
+      {
+        "name": "Legionspace Siren (Maneuver)",
+        "description": "Advance an enemy battlegroup one range band forward. That battlegroup must then choose; either they cannot take or benefit from actions or effects that would move them back any number of range bands until the end of their next turn ​or a Capital Ship of your choice in that range band takes 1d6 damage."
+      },
+      {
+        "name": "Raiding Party (Tactic)",
+        "description": "The Corsair scrambles one or two of its Wings and gives them one of the following commands. You may select the same or different commands for each: Marauders - Deal 1 damage to target Capital Ship, or deal 1d3 damage to target Ace, Escort, or Wing, and take that much damage in return. / Uninvited Guests - Select one of the Corsair's Wings of mounted chassis and give them one of the following Commands. This Wing is effectively removed from play and cannot be damaged or targeted by attacks or effects while assigned this command. During the Boarding Step, roll 1d20. On an 8+, choose one of the following effects: / Deploy Targeting Beacons - All attacks against the boarded ship are made with +1 Accuracy until the end of their next turn. / Plant Demolition Charges - During the boarded ship's next turn they must choose; either use a Maneuver to repel boarders or take 1d6 damage that ignores Overshield and cannot be reduced in any way at the end of that turn. This boarding command can be stacked up to a maximum of 3d6 damage. / Disable Life Support - The boarded ship does not remove refresh counters from Reloading weapons or systems during the next Logistics Step."
+      }
+    ]
   }
 ]

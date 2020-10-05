@@ -43,7 +43,7 @@ function hullFormat(object) {
     let health_line = []
     if (object.hp) health_line.push(`${object.hp} HP`)
     if (object.defense) health_line.push(`${object.defense} Def`)
-    if (object.interdiction) health_line.push(`${object.interdiction} Int`)
+    if (object.interdiction) health_line.push(`${object.interdiction} Intd`)
     out += ` | ${health_line.join(', ')}\n`
   } else {
     out += `\n`

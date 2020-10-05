@@ -5,7 +5,7 @@ require('dotenv').config()
 
 const client = new Commando.Client({
   owner: process.env.OWNER,
-  commandPrefix: '??'
+  commandPrefix: '!bg!'
 })
 
 client.on('ready', () => console.log('Battlespace CIC is ready!'))
@@ -56,11 +56,41 @@ class InviteCommand extends Commando.Command {
   }
 }
 
+class StartCommand extends Commando.Command {
+  constructor(client) {
+    super(client, {
+      name: 'start',
+      group: 'battlegroup',
+      memberName: 'start',
+      description: 'Starting with Lancer Battlegroup',
+    })
+  }
+  async run(msg) {
+    await msg.reply(`\nGoogle Sheet character sheet: https://docs.google.com/spreadsheets/d/1yFVzdFeOxXCIE_9unYfpEvbhuwuLZaEDKC4-W9g5IW0/edit?usp=sharing\nCurrent ruleset: https://cdn.discordapp.com/attachments/711270320723591259/755883954191597687/Lancer_Battlegroup_1.4_BookmarkedCYAN.pdf`)
+  }
+}
+
+class CreditsCommand extends Commando.Command {
+  constructor(client) {
+    super(client, {
+      name: 'credits',
+      group: 'battlegroup',
+      memberName: 'credits',
+      description: 'Credits for the bot',
+    })
+  }
+  async run(msg) {
+    await msg.reply(`Credits:\n\nLancer Battlegroup is created by Miguel Lopez and Kai Tave for Massif Press.\n\nThe bot is presented by Fluke.\n\nWith special thanks to Rick and the 7th Fleet server.`)
+  }
+}
+
 client.registry
   .registerDefaults()
   .registerGroup('battlegroup', 'Battlegroup commands')
   .registerCommand(SearchCommand)
   .registerCommand(InviteCommand)
+  .registerCommand(StartCommand)
+  .registerCommand(CreditsCommand)
 
 client.login(process.env.TOKEN)
 
