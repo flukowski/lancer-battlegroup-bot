@@ -5,7 +5,7 @@ require('dotenv').config()
 
 const client = new Commando.Client({
   owner: process.env.OWNER,
-  commandPrefix: '!bg!'
+  commandPrefix: 'bg::'
 })
 
 client.on('ready', () => console.log('Battlespace CIC is ready!'))
