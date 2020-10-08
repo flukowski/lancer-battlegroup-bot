@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "npce_giant",
+    "name": "Giant",
+    "hp": "+20",
+    "defense": "-2",
+    "traits": [
+      {
+        "name": "Template (Trait)",
+        "description": "Special Escort that directly enhances the Flagship they’re given to. Templates cannot be reassigned if their Flagship is destroyed, and a Flagship can only ever have one Template."
+      },
+      {
+        "name": "Tyrant Cannon (Charge)",
+        "tags": [ "Superheavy", "Single Target", "Charge 4", "Critical", "Reliable 10", "Range 5-4", "30 Damage" ]
+      },
+      {
+        "name": "Impossible Power (Trait)",
+        "description": "1/round this Template’s Flagship may use an additional Maneuver or Tactic during its Action Step. At the start of the Logistics Step you may permanently disable this Trait for the remainder of battle to remove one charge counter and one refresh counter from all Maneuvers, Tactics, Systems, and Charge weapons belonging to this Template’s Flagship."
+      }
+    ]
+  }
+]
