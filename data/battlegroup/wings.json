@@ -63,9 +63,53 @@
       {
         "name": "Barbarossa (Tactic)",
         "tags": [ "Range 3-0" ],
-        "description": "Give the Barbarossa Chassis Wing one of the following commands:\n● Siege Cannons\nDeal 1d3+1 damage to target Capital Ship or Escort.\n● Charge Apocalypse Rails\nReloading 2\nYou order the Barbarossa Chassis Wing to charge their integrated Apocalypse Rail weapons. During the next Impact Step you may order this Wing to open fire on a Capital Ship or Escort within range. Make a Single Target attack roll, and on hit deal 2d6 damage. If you consume Lock On as part of this attack, it gains Reliable 4."
+        "description": "Give the Barbarossa Chassis Wing one of the following commands:\n● Siege Cannons\nDeal 3 damage to target Capital Ship or Escort.\n● Charge Apocalypse Rails\nReloading 2\nYou order the Barbarossa Chassis Wing to charge their integrated Apocalypse Rail weapons. During the next Impact Step you may order this Wing to open fire on a Capital Ship or Escort within range. Make a Single Target attack roll, and on hit deal 2d6 damage. If you consume Lock On as part of this attack, it gains Reliable 4."
       }
     ],
     "effect": "A Barbarossa Chassis Wing's integrated flak launchers and anti-aerospace munitions count as an Auxiliary weapon for your battlegroup. When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort in range 3-0, automatically deal 3 damage to an Ace or Wing. "
+  },
+  {
+    "id": "wi_tortuga_chassis",
+    "name": "Tortuga Chassis Wing",
+    "points": 3,
+    "hp": "8",
+    "tags": [ "Unique", "Boarding", "Tenacity 12" ],
+    "traits": [
+      {
+        "name": "Tortuga (Tactic)",
+        "tags": [ "Range 3-0" ],
+        "description": "Give the Tortuga Chassis Wing one of the following commands:\n● Heavy Gunner\nDeal 1d3 damage to target Escort or Wing. Until the end of your next turn, the next time the Tortuga Chassis Wing or the ship it is equipped to takes damage from an Escort or Wing while in range 3-0, you may deal 3 damage to them in response.\n● Decksweepers\nRepel a boarding unit from a ship in your battlegroup or a ship belonging to an allied battlegroup in the same range band, and deal 3 damage to it.\n● Daisy Cutters\nAssign this Wing to board an enemy Flagship. Each time you succeed on a boarding roll with this Wing, the boarded ship takes 2 damage. 2/battle, you may deal 1d6+1 damage instead."
+      }
+    ]
+  },
+  {
+    "id": "wi_monarch_chassis",
+    "name": "Monarch Chassis Wing",
+    "points": 3,
+    "hp": "6",
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Monarch (Tactic)",
+        "tags": [ "Range 3-0" ],
+        "description": "Give the Monarch Chassis Wing one of the following commands:\n● Seeking Payloads\nConsume Lock On to deal 2 damage to target Capital Ship or Escort, and 2 damage to all Wings equipped to that target.\n● Gandiva Missiles\nYou order the Monarch Chassis Wing to launch a salvo of advanced Gandiva missiles. Treat this as a Single Target Payload attack that deals 1d6+1 damage and can be launched at two targets at a time, tracking them individually. You may consume Lock On when using this command to increase or decrease a Payload's flight time by 1."
+      }
+    ],
+    "effect": "A Monarch Chassis Wing's integrated SSC-30 High-Penetration Missile Systems allows them to coordinate reactive volleys of Avenger micromissiles with other weapons. Whenever a weapon in your battlegroup critically hits a target in range 3-0, even if it does not have the Critical tag, you may deal 2 damage to a Capital Ship, Escort, or Wing."
+  },
+  {
+    "id": "wi_balor_chassis",
+    "name": "Balor Chassis Wing",
+    "points": 3,
+    "hp": "6",
+    "tags": [ "Unique", "Greywash", "Boarding", "Tenacity 11" ],
+    "traits": [
+      {
+        "name": "Balor (Tactic)",
+        "tags": [ "Range 3-0" ],
+        "description": "Give the Balor Chassis Wing one of the following commands:\n● Nanocomposite Munitions\nDeal 2 damage to target Wing, or consume Lock On to apply 2 greywash counters totarget Capital Ship or Escort.\n● Hive Frenzy\nAssign this Wing to board an enemy Flagship. Each time you succeed on a boarding roll with this Wing, the boarded ship gains 2 greywash counters. Ships boarded by this Wing do not remove greywash counters during the Impact Step."
+      }
+    ],
+    "effect": "A Balor Chassis Wing's nanoswarm construction allows it to hellishly regenerate physical damage sustained during combat. During the Logistics Step, this Wing repairs 2 HP."
   }
 ]

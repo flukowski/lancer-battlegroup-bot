@@ -72,7 +72,7 @@
       },
       {
         "name": "Lead Dancer (Trait)",
-        "description": "The Tagetes Class Agile Carrier’s equipped Wings gain +1 to all non-boarding damage effects. All damage dealt to this ship’s equipped Wings is reduced by 1d3 to a minimum of 1."
+        "description": "The Tagetes Class Agile Carrier’s equipped Wings gain +1 to all non-boarding damage effects. All damage dealt to this ship’s equipped Wings by hostile effects or abilities is reduced by 1 to a minimum of 0."
       }
     ]
   },

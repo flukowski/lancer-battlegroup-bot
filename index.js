@@ -84,6 +84,20 @@ class CreditsCommand extends Commando.Command {
   }
 }
 
+class VersionCommand extends Commando.Command {
+  constructor(client) {
+    super(client, {
+      name: 'version',
+      group: 'battlegroup',
+      memberName: 'version',
+      description: 'Version for the bot',
+    })
+  }
+  async run(msg) {
+    await msg.reply(`Version:\n\nUpdated to version 1.5.`)
+  }
+}
+
 client.registry
   .registerDefaults()
   .registerGroup('battlegroup', 'Battlegroup commands')
@@ -91,6 +105,7 @@ client.registry
   .registerCommand(InviteCommand)
   .registerCommand(StartCommand)
   .registerCommand(CreditsCommand)
+  .registerCommand(VersionCommand)
 
 client.login(process.env.TOKEN)
 

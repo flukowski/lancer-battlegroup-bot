@@ -17,7 +17,7 @@
         "description": "Choose one Corvette Escort assigned to your battlegroup and give them one of the following commands: \n● Trade Blows \nDeal 2 damage to target Wing, or deal 4 damage to target Capital Ship and take 2 damage in return. \n● Defensive Formation \nAdd +2 to your battlegroup’s Interdiction until the start of your next turn. \n● Gun Run \nLimited 1 \nDeal 2 Area damage to target battlegroup. You may consume Lock On as part of this command to deal +2 Area damage to that Capital Ship or Escort. This damage cannot be Interdicted."
       }
     ],
-    "effect": "Designating targets for close fire support allows your Corvette Escorts to rapidly track and engage them. Whenever you Lock On to a target in range 3-0, automatically deal 1 damage to that target. "
+    "effect": "Designating targets for close fire support allows your Corvette Escorts to rapidly track and engage them. 1/round whenever you Lock On to a target in range 3-0, automatically deal 1 damage to that target. "
   },
   {
     "id": "es_subline_picket",
@@ -67,7 +67,7 @@
       {
         "name": "Destroyer Command (Tactic)",
         "tags": [ "Range 3-0" ],
-        "description": "Choose one Destroyer Escort assigned to your battlegroup and give them one of the following commands: \n● Cannonade \nDeal 3 damage to target Capital Ship and 1 damage to all Wings in that ship’s battlegroup. \n● Snapflight Torpedoes \nDeal 6 damage to target Escort."
+        "description": "Choose one Destroyer Escort assigned to your battlegroup and give them one of the following commands: \n● Cannonade \nDeal 3 damage to target Capital Ship. \n● Snapflight Torpedoes \nDeal 6 damage to target Escort. \n● Hunter Doctrine \nLimited 1 \nAdvance or fall back 1 range band. You may not use this command if you have already moved this turn, and after using it you may not move again this turn."
       }
     ],
     "effect": "A Destroyer Escort's pulse lances, kinetic guns, or missile batteries count as an Auxiliary weapon for your battlegroup. When fired alongside any Primary Single Target weapon targeting a Capital Ship or Escort, automatically deal 2 damage to that weapon’s target."

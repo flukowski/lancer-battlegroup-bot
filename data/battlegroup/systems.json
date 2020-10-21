@@ -4,21 +4,21 @@
     "name": "Aggressive Commanders",
     "points": 0,
     "tags": [ "Unique" ],
-    "effect": "You gain +1 Accuracy to all attacks while at range 2-0. All attacks against you while you are at range 2-0 gain +1 Accuracy."
+    "effect": "You gain +1 Accuracy to all attacks while at range 2-0. All attacks against you while you are at range 2-0 gain +1 Accuracy. 1/battle, when an enemy forces you to move forward any number of range bands, one Capital Ship in your battlegroup may gain 5 Overshield."
   },
   {
     "id": "insightful_commanders",
     "name": "Insightful Commanders",
     "points": 0,
-    "tags": [ "Reloading 3", "Unique" ],
-    "effect": "Whenever an enemy battlegroup would force you to move back or forward any number of range bands, you may ignore that movement. Until the end of your next turn, all attacks against you are made with +1 Difficulty."
+    "tags": [ "Reloading 2", "Unique" ],
+    "effect": "Whenever an enemy would force you to move back or forward any number of range bands, you may gain +1d6 Interdiction and all ships in your battlegroup gain +2 Defense until the end of your next turn. You may choose to destroy this system to ignore that movement and all other enemy effects that would force it to move until the end of your next turn instead."
   },
   {
     "id": "veteran_crews",
     "name": "Veteran Crews",
     "points": 0,
     "tags": [ "Limited 1" ],
-    "effect": "This ship may reroll one of its attack rolls, but must keep the second result. This system may be taken multiple times, but only once per ship."
+    "effect": "You may reroll one of your attack rolls, but must keep the second result. On a reroll result of 20+ you do not expend this system’s Limited use."
   },
   {
     "id": "shield_projector",
@@ -89,7 +89,7 @@
       {
         "name": "Cleared to Land! (Tactic)",
         "tags": [ "Limited 1" ],
-        "description": "All of your equipped Escorts and Wings or all Escorts and Wings belonging to an allied battlegroup in the same range band as you repair 2 HP. If an allied Ace is in the same range band as you, they repair 4 HP as well."
+        "description": "All of your equipped Escorts and Wings or all Escorts and Wings belonging to an allied battlegroup in the same range band as you repair 2 HP. One Escort or Wing of your choice may repair 4 HP instead."
       }
     ]
   },
@@ -127,12 +127,13 @@
     "traits": [
       {
         "name": "Divert Power to Defense Screens (Tactic)",
-        "description": "You may add any number of charging counters to a weapon with the Charge tag in your battlegroup up to its maximum value. That ship gains +1 Defense to a maximum of 20 and your battlegroup gains +2 Interdiction until the end of your next turn for each counter added this way."
+        "tags": [ "Reloading 2" ],
+        "description": "You may add 1 charging counter to a weapon with the Charge tag in your battlegroup. That weapon’s ship gains +2 Defense and your battlegroup gains +1d6 Interdiction until the end of your next turn."
       },
       {
         "name": "Divert Power to Weapons (Tactic)",
         "tags": [ "Reloading 2" ],
-        "description": "You may shunt power from defenses straight into a ship’s weapon systems. Doing this removes 1 charging counter from any weapon with the Charge tag but all attacks against that ship gain +1 Accuracy and Interdiction applied to that ship is only half as effective (requiring 2 points of Interdiction to prevent 1 damage) until the end of your next turn."
+        "description": "You may shunt power from defenses straight into a ship’s weapon systems. Doing this removes 1 charging counter from any weapon with the Charge tag in your battlegroup, but all attacks against that weapon’s ship gain +1 Accuracy and Interdiction applied to that ship is only half as effective (requiring 2 points of Interdiction to prevent 1 damage) until the end of your next turn. \n\nYou may choose to push this system beyond its tolerances and remove 2 charging counters at once instead of 1. If you do this, the weapon’s ship also takes 5 damage that ignores Overshield and cannot be reduced in any way, and Interdiction cannot be applied to it until the end of your next turn. Then destroy this system."
       }
     ]
   },
@@ -216,7 +217,8 @@
     "traits": [
       {
         "name": "Shrouded Advance (Maneuver)",
-        "description": "Advance one range band and gain either +1d6 Interdiction or +2 Defense until the end of your next turn."
+        "tags": [ "Reloading 2" ],
+        "description": "Your battlegroup may advance one range band forward, and you may fire one Primary weapon before or after moving. Gain +1d6 Interdiction and +2 Defense until the end of your next turn."
       },
       {
         "name": "Thermal Spoofing (Tactic)",
@@ -224,7 +226,7 @@
         "description": "This ship gains 5 Overshield. Add 1 flight counter to any number of active enemy Payload weapons targeting your battlegroup or any of your ships."
       }
     ],
-    "effect": "Whenever your battlegroup falls back or advances during your turn you may clear Lock On from this ship."
+    "effect": "Whenever your battlegroup moves, either during your turn or from enemy effects and abilities, you may clear Lock On from this ship. "
   },
   {
     "id": "battlespace_cic",

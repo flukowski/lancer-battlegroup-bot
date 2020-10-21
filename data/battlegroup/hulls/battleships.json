@@ -8,13 +8,17 @@
     "tags": [ "2 Superheavy", "1 Primary", "1 System" ],
     "traits": [
       {
+        "name": "Last Argument of Kings (Trait)",
+        "description": "The Calendula Class Battlecruiser must equip at least one Superheavy weapon with the Charge tag."
+      },
+      {
         "name": "Overcharge Capacitors (Trait)",
-        "description": "The Calendula Class Battlecruiser may pour more power into its weapons than is strictly advisable. When an equipped Superheavy weapon with the Charge tag is fully charged, you may begin adding overcharge counters to it during the Logistics Step (or whenever an ability would allow you to remove a charging tag from that weapon) to a maximum of 4 overcharge counters. Each time you add an overcharge counter this ship takes 1 damage that cannot be prevented in any way, but when you fire an overcharged weapon your attack roll gains +1 (a flat +1 to the roll) and it deals an additional +1d3 damage on hit for each overcharge counter on it."
+        "description": "The Calendula Class Battlecruiser may pour more power into its long-spool weapons than is strictly advisable. Whenever you remove a charge counter from a Superheavy weapon equipped to this ship, you may take 1 damage to give that weapon an overcharge counter as well, up to a maximum of 4. This damage cannot be prevented in any way, but cannot reduce you below 1 HP. When you fire that weapon, remove all overcharge counters from it and deal an additional +1d3 damage on hit for each counter removed this way."
       },
       {
         "name": "Maximum Power! (Tactic)",
         "tags": [ "Limited 1" ],
-        "description": "Choose a single Superheavy weapon equipped to the Calendula Class Battlecruiser with the Charge tag. That weapon immediately removes 4 charging counters, gaining overcharge counters as needed if this would take it below 0, and the next attack made with this weapon gains Reliable 4, or adds +4 to its existing Reliable value. After that weapon's next attack, it is destroyed and cannot be used again for the rest of the battle."
+        "description": "Choose a single Superheavy weapon equipped to the Calendula Class Battlecruiser with the Charge tag. That weapon immediately removes all charge counters and gains 4 overcharge counters. The next attack made with this weapon gains Reliable 4, or adds +4 to its existing Reliable value, but afterwards it is destroyed and cannot be used again for the rest of the battle. When you use this Tactic you immediately take 4 damage that cannot be prevented in any way, but this cannot reduce you below 1 HP."
       }
     ]
   },
@@ -47,7 +51,7 @@
       {
         "name": "Unleash Hell! (Maneuver)",
         "tags": [ "Limited 1" ],
-        "description": "You may fire one Superheavy weapon and up to two Primary weapons, or up to four Primary weapons."
+        "description": "You may fire one Superheavy weapon and up to two Primary weapons, or up to four Primary weapons. You may not use this Maneuver if you have moved this turn."
       }
     ]
   },
@@ -85,7 +89,7 @@
       {
         "name": "Tactical Blinktunneler (Maneuver)",
         "tags": [ "Limited 1" ],
-        "description": "Your battlegroup may move back or forward one range band, gaining +1d6 Interdiction or +2 to the Defense score of all ships until the end of your next turn, and you may fire one Superheavy Weapon or up to two Primary Weapons after moving."
+        "description": "Your battlegroup may fall back or advance one range band. Gain +1d6 Interdiction and all ships in your battlegroup gain +2 Defense until the end of your next turn. You may also fire one Superheavy Weapon or up to two Primary Weapons before or after moving."
       }
     ]
   },
@@ -104,7 +108,7 @@
       {
         "name": "Body Blow (Maneuver)",
         "tags": [ "Limited 1" ],
-        "description": "Fire one Superheavy weapon or up to two Primary weapons. You may then command all Wings equipped to the Greenland Class Battlecarrier, giving them +2 to all non-boarding damage effects if they take 1d3 damage in return."
+        "description": "Fire one Superheavy weapon or up to two Primary weapons. You may then command all Wings equipped to the Greenland Class Battlecarrier."
       }
     ]
   },

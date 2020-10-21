@@ -16,7 +16,7 @@
     "points": 2,
     "range": "4-1",
     "damage": "8",
-    "tags": [ "Single Target", "Charge 2" ],
+    "tags": [ "Single Target", "Charge 2", "Critical" ],
     "description": "An old workhorse, the linear accelerator coherent beam cannon once marked the pinnacle of energy weapon development. Reliable at middle-confidence ranges and, with modern power systems, capable of rapid cycling main battery fire, a LinAc CBC is nonetheless still a formidable weapon favored by conservative captains."
   },
   {
@@ -26,8 +26,8 @@
     "points": 2,
     "range": "5-2",
     "damage": "15",
-    "tags": [ "Single Target", "Charge 3", "Critical" ],
-    "effect": "This weapon does not take the +1 Difficulty penalty for targeting Escorts. On hit or miss, this weapon deals 5 damage to another Capital Ship or Escort in that target’s battlegroup. If there are no other targets in the battlegroup, this ability has no effect.",
+    "tags": [ "Single Target", "Accurate", "Charge 3", "Critical" ],
+    "effect": "On hit or miss, this weapon deals 5 damage to another Capital Ship or Escort in that target’s battlegroup. If there are no other targets in the battlegroup, this ability has no effect.",
     "description": "An old workhorse, the linear accelerator coherent beam cannon once marked the pinnacle of energy weapon development. Reliable at middle-confidence ranges and, with modern power systems, capable of rapid cycling main battery fire, a LinAc CBC is nonetheless still a formidable weapon favored by conservative captains."
   },
   {
@@ -37,8 +37,8 @@
     "points": 2,
     "range": "4-2",
     "damage": "7",
-    "tags": [ "Single Target", "Accurate" ],
-    "effect": "Whenever you would make an attack with this weapon you may instead begin preparing it to fire a devastating volley shot. Mark this weapon with a special volley counter every time you do this up to a maximum of 2 volley counters stored at a time. Attacking with this weapon expends all stored volley counters, dealing +7 damage on hit for each counter spent. Your battlegroup gains the following Maneuver: Volley Sequence (Maneuver) Add one volley counter to the 3x3 Block Short-Spool Cannons, and then you may also fire one Primary weapon or move forward one range band.",
+    "tags": [ "Single Target" ],
+    "effect": "This weapon does not take the +1 Difficulty penalty for targeting Escorts. Whenever you would make an attack with this weapon you may instead begin preparing it to fire a devastating volley shot. Mark this weapon with a special volley counter every time you do this up to a maximum of 2 volley counters stored at a time. Attacking with this weapon expends all stored volley counters, dealing +7 damage on hit for each counter spent. At 2 volley counters, this weapon also gains the Critical tag when fired. Your battlegroup gains the following Maneuver: Volley Sequence (Maneuver) Add one volley counter to the 3x3 Block Short-Spool Cannons, and then you may also fire one Primary weapon or move forward one range band.",
     "description": "An old workhorse, the linear accelerator coherent beam cannon once marked the pinnacle of energy weapon development. Reliable at middle-confidence ranges and, with modern power systems, capable of rapid cycling main battery fire, a LinAc CBC is nonetheless still a formidable weapon favored by conservative captains."
   },
   {
@@ -59,7 +59,7 @@
     "range": "4-3",
     "damage": "4d6",
     "tags": [ "Single Target", "Reloading 2" ],
-    "effect": "This weapon cannot be used during the first round of combat as it requires preparatory calibration. Attacks with this weapon made closer than Long Range (4) gain Inaccurate.",
+    "effect": "This weapon cannot be used during the first round of combat as it requires preparatory calibration. Attacks with this weapon made closer than Long Range (4) gain Inaccurate. On hit, any damage dice that land on a 1 are rerolled. Additional 1s continue to trigger this effect.",
     "description": "An NKP is essentially just a bundle of nearlight drives packed behind a dome-shaped micrometeorite shield. While frigates can, through the use of external bracket mounts, employ single-use skip drones in combat, only larger ships can fit NKPs into existing torpedo tubes or accelerator bays without substantial superstructural modification. NKPs are devastating — if crude and temperamental — weapons favored by states and navies with limited access to more advanced navspec ordinance."
   },
   {
@@ -77,7 +77,7 @@
     "name": "Co-Consciousness Lance",
     "mount": "Superheavy",
     "points": 3,
-    "range": "4-0",
+    "range": "4-2",
     "damage": "2d6+2",
     "tags": [ "Area Target", "Legionspace", "Reloading 3" ],
     "effect": "This devastating systemic attack shatters an enemy fleet legion’s cohesion and deals +2 damage for each non-Template Escort in the target battlegroup. After taking damage from this weapon, the target battlegroup must choose one; either they must take the first NPC turn of the next round but all of their rolls are made with +1 Difficulty, or they must act last in the next round after everyone else has taken their turn. If multiple battlegroups suffer from this disruption effect at once, they choose a viable turn order as needed."
@@ -87,9 +87,9 @@
     "name": "Primary Kinetic Batteries",
     "mount": "Primary",
     "points": 0,
-    "range": "2-0",
+    "range": "3-0",
     "damage": "1d6+1",
-    "tags": [ "Single Target", "Reliable 2" ]
+    "tags": [ "Single Target", "Reliable 1" ]
   },
   {
     "id": "wp_short_cycle_lance_batteries",
@@ -216,7 +216,7 @@
     "range": "2-0",
     "damage": "1d6+1",
     "tags": [ "Single Target", "Reliable 3" ],
-    "effect": "Instead of attacking with this weapon normally, you may instead target one or two Aces or Wings and automatically deal 3 damage to them."
+    "effect": "When you attack with this weapon, you may instead target one or two Aces or Wings and automatically deal 3 damage to them."
   },
   {
     "id": "wp_darkstar_multiple_warhead_torpedoes",
