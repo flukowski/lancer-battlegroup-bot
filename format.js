@@ -18,6 +18,8 @@ function itemTypeFormat(object) {
       return 'Escort'
     case 'wing':
       return 'Wing'
+    case 'ace':
+      return 'Ace Option'
     case 'accolade':
       return 'Accolade'
     case 'legacy':
@@ -68,7 +70,8 @@ function weaponFormat(object) {
 }
 
 function systemFormat(object) {
-  let out = `[${object.points}] **${object.name}** (${itemTypeFormat(object)})\n`
+  let points_text = object.points ? `[${object.points}] ` : ''
+  let out = `${points_text}**${object.name}** (${itemTypeFormat(object)})\n`
   if (object.tags && object.tags.length > 0) out += `${object.tags.join(', ')}\n`
   if (object.effect) out += `\n${object.effect}`
   if (object.traits && object.traits.length > 0) {
@@ -102,6 +105,8 @@ module.exports = function (object) {
       return hullFormat(object);
     case 'wing':
       return hullFormat(object);
+    case 'ace':
+      return systemFormat(object);
     case 'system':
       return systemFormat(object);
     case 'accolade':

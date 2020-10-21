@@ -8,6 +8,7 @@ const {
   systems,
   escorts,
   wings,
+  aces,
   accolades, legacies,
   npc_flagships, npc_escorts,
 } = data
@@ -20,6 +21,7 @@ const searchable = [
   ...systems.map(x => ({ ...x, data_type: 'system' })),
   ...escorts.map(x => ({ ...x, data_type: 'escort' })),
   ...wings.map(x => ({ ...x, data_type: 'wing' })),
+  ...aces.map(x => ({ ...x, data_type: 'ace' })),
   ...accolades.map(x => ({ ...x, data_type: 'accolade' })),
   ...legacies.map(x => ({ ...x, data_type: 'legacy' })),
   ...maneuvers.map(x => ({ ...x, data_type: 'maneuver' })),

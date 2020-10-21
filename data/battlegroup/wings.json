@@ -111,5 +111,20 @@
       }
     ],
     "effect": "A Balor Chassis Wing's nanoswarm construction allows it to hellishly regenerate physical damage sustained during combat. During the Logistics Step, this Wing repairs 2 HP."
+  },
+  {
+    "id": "wi_ace_squadron",
+    "name": "Ace Squadron",
+    "points": 3,
+    "hp": "6",
+    "tags": [ "Unique" ],
+    "traits": [
+      {
+        "name": "Ace Squadron (Tactic)",
+        "tags": [ "Range 3-0" ],
+        "description": "Give the Ace Squadron one of the following commands:\n● Primary Weapons\nDeal 1d3+1 damage to target Ace, Capital Ship, Escort, or Wing"
+      }
+    ],
+    "effect": "You may choose three Ace options to represent your personalized Ace Squadron. Some options may add more commands for you to issue your Ace Squadron, and each option may only be taken once."
   }
 ]

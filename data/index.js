@@ -9,6 +9,7 @@ const weapons = require("./battlegroup/weapons.json");
 const systems = require("./battlegroup/systems.json");
 const escorts = require("./battlegroup/escorts.json");
 const wings = require("./battlegroup/wings.json");
+const aces = require("./battlegroup/aces.json");
 
 const accolades = require("./battlegroup/progression/accolades.json");
 const legacies = require("./battlegroup/progression/legacies.json");
@@ -24,6 +25,7 @@ let data = {
   systems: systems,
   escorts: escorts,
   wings: wings,
+  aces: aces,
   npc_flagships: npc_flagships,
   npc_escorts: npc_escorts,
   accolades: accolades,

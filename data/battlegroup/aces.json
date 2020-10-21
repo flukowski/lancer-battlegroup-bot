@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "ace_redline_operation",
+    "name": "Redline Operation",
+    "effect": "Your Ace Squadron may take 2 damage to deal +2 damage with any non-boarding damage effect."
+  },
+  {
+    "id": "ace_casque_armor",
+    "name": "Casque Armor",
+    "effect": "Your Ace Squadron gains +4 HP."
+  },
+  {
+    "id": "ace_aggressive_pickets",
+    "name": "Aggressive Pickets",
+    "effect": "Whenever an enemy forces your battlegroup to fall back or move forward any number of range bands, you may deal 2 damage to an Escort or Wing in that enemy battlegroup."
+  },
+  {
+    "id": "ace_goalkeeper",
+    "name": "Goalkeeper",
+    "effect": "Any battlegroup your Ace Squadron is assigned to gains +2 Interdiction."
+  },
+  {
+    "id": "ace_jettison_ram",
+    "name": "Jettison Ram",
+    "effect": "Your Ace Squadron gains the Boarding tag and has a Tenacity of 13. Whenever a boarded ship fails a roll to repel your Ace Squadron, they take 4 damage."
+  },
+  {
+    "id": "ace_microburst_drives",
+    "name": "Microburst Drives",
+    "effect": "Your Ace Squadron's command range becomes 4-0."
+  },
+  {
+    "id": "ace_nhp_copilot",
+    "name": "NHP Co-Pilot",
+    "tags": [ "Reloading 3" ],
+    "effect": "You may use an additional Tactic during your turn which can only be used to command your Ace Squadron."
+  },
+  {
+    "id": "ace_instinct_pods",
+    "name": "INSTINCT Pods",
+    "tags": [ "Tactic", "Limited 2", "Reloading 2" ],
+    "effect": "Choose an enemy battlegroup within range. Until the end of your next turn that battlegroup cannot benefit from Accuracy on its attack rolls except to cancel out Difficulty, and whenever a ship in that battlegroup misses an attack roll it takes 3 damage."
+  },
+  {
+    "id": "ace_shipkiller",
+    "name": "Shipkiller",
+    "tags": [ "Tactic", "Limited 1" ],
+    "effect": "Deal 4 damage to target Capital Ship. If that ship is at half HP or less, not counting Overshield, deal 6 damage instead. If this destroys the target, you do not expend this command’s Limited use."
+  },
+  {
+    "id": "ace_tac_comm_scout_package",
+    "name": "Tac/Comm Scout Package",
+    "tags": [ "Tactic", "Reloading 2" ],
+    "effect": "Lock On to two Capital Ships or Escorts."
+  },
+  {
+    "id": "ace_ticket_puncher",
+    "name": "Ticket Puncher",
+    "tags": [ "Tactic", "Reloading 3" ],
+    "effect": "Choose a Capital Ship or Escort. Your Ace sets a collision course with them. During the next Impact Step, deal 1d6+6 damage to the target ship and destroy your Ace Squadron. This damage ignores Overshield and cannot be reduced or increased in any way. Your pilots will not survive this; an Ace Squadron destroyed this way cannot be brought back this battle by any means."
+  }
+]
