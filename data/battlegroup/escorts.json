@@ -29,7 +29,7 @@
     "id": "es_payload_escort",
     "name": "Payload Escort",
     "points": 2,
-    "effect": "This special Escort has been tasked with providing your launched munitions with a protective escort, clearing the way for them to strike their targets. When you or an allied battlegroup in the same range band fire a weapon with the Payload tag, you may assign this squadron to escort it. During the Impact Step, add +1 to that Payload weapon’s damage for each flight counter removed from it before impact, and you may force the enemy battlegroup to reroll 1 Interdiction die and take the worse result. However if the damage from this escorted attack is reduced to 0 from Interdiction then this Escort is destroyed."
+    "effect": "This special Escort has been tasked with providing your launched munitions with a protective escort, clearing the way for them to strike their targets. When you or an allied battlegroup in the same range band fire a weapon with the Payload tag, you may assign this squadron to escort it. An escorted Payload cannot have flight counters added to it from enemy systems or abilities. During the Impact Step, add +1 to that Payload’s damage for each flight counter removed from it before impact, and you may force the enemy battlegroup to reroll 1 Interdiction die of your choice and take the worse result. However if the damage from this escorted attack is reduced to 0 from Interdiction then this Escort is destroyed."
   },
   {
     "id": "es_minelayers",
@@ -54,6 +54,11 @@
       {
         "name": "CONSUME",
         "description": "Apply 3 greywash counters to the boarded ship on a successful boarding roll, or 1 greywash counter on a failure. Spending a Maneuver to clear greywash counters also repels this boarding unit as well."
+      },
+      {
+        "name": "SURGE",
+        "tags": [ "Limited 1" ],
+        "description": "Double the number of greywash counters on this ship. If this boarding action fails, you do not expend this command’s Limited use."
       }
     ],
     "effect": "PGR_Gourd Limpets can only be given the CONSUME boarding command."

@@ -1,10 +1,24 @@
 [
   {
+    "id": "hc_apeiron",
+    "name": "SSC Apeiron Class Carrier",
+    "points": 6,
+    "hp": "14",
+    "defense": "15",
+    "tags": [ "4 Wings" ],
+    "traits": [
+      {
+        "name": "Singularity Catapults (Trait)",
+        "description": "The Apeiron Class Carrier’s equipped Wings increase both the maximum and minimum ranges of all of their effects and abilities by 1 (for example, a Wing with a range of 2-0 becomes 3-1)."
+      }
+    ]
+  },
+  {
     "id": "hc_amazon",
     "name": "GMS Amazon Class Line Carrier",
     "points": 4,
     "hp": "14",
-    "defense": "13",
+    "defense": "14",
     "tags": [ "4 Wings" ],
     "traits": [
       {
@@ -21,9 +35,9 @@
   {
     "id": "hc_tongass",
     "name": "GMS Tongass Class Line Carrier",
-    "points": 5,
+    "points": 4,
     "hp": "14",
-    "defense": "13",
+    "defense": "14",
     "tags": [ "2 Auxiliary", "2 Escorts" ],
     "traits": [
       {
@@ -32,7 +46,7 @@
       },
       {
         "name": "Close Support (Trait)",
-        "description": "1/round, an ally in your range band may use any Tactics granted by one of the Tongass Class Line Carrier’s equipped Escorts as if it was under their control."
+        "description": "An ally in your range band may use any Tactics granted by one of the Tongass Class Line Carrier’s equipped Escorts as if it was under their control."
       }
     ]
   },
@@ -41,7 +55,7 @@
     "name": "HA Farragut Class Starfield Carrier",
     "points": 5,
     "hp": "16",
-    "defense": "12",
+    "defense": "13",
     "tags": [ "1 Primary", "1 Modular", "2 Wings" ],
     "traits": [
       {
@@ -63,7 +77,7 @@
     "name": "FKS Tagetes Class Agile Carrier",
     "points": 6,
     "hp": "14",
-    "defense": "14",
+    "defense": "15",
     "tags": [ "1 System", "3 Wings" ],
     "traits": [
       {
@@ -81,7 +95,7 @@
     "name": "IPS-N Tawa Class Medium Carrier",
     "points": 4,
     "hp": "16",
-    "defense": "11",
+    "defense": "12",
     "tags": [ "1 Escort", "1 System", "2 Wings" ],
     "traits": [
       {
@@ -99,7 +113,7 @@
     "name": "IPS-N Masauwu Class Heavy Carrier-Frame",
     "points": 6,
     "hp": "16",
-    "defense": "10",
+    "defense": "11",
     "tags": [ "2 Escorts", "2 Wings" ],
     "traits": [
       {

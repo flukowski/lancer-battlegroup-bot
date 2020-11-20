@@ -94,7 +94,7 @@ class VersionCommand extends Commando.Command {
     })
   }
   async run(msg) {
-    await msg.reply(`Version:\n\nUpdated to version 1.5.`)
+    await msg.reply(`Version:\n\nUpdated to version 1.6`)
   }
 }
 

@@ -1,5 +1,23 @@
 [
   {
+    "id": "hb_hesperis",
+    "name": "FKS Hesperis Class Battlecruiser",
+    "points": 7,
+    "hp": "23",
+    "defense": "13",
+    "tags": [ "1 Superheavy", "2 Primary", "1 Escort" ],
+    "traits": [
+      {
+        "name": "Impact-Assurance Targeting (Trait)",
+        "description": "1/round you may choose; you may consume Lock On during the Logistics Step to remove 1 flight counter from one of your active Single Target Payload attacks against that ship, or you may consume Lock On during the Impact Step against an enemy Flagship rolling Interdiction against one or more of your Payload attacks to force them to reroll 1 Interdiction die and keep the worse result."
+      },
+      {
+        "name": "Self-Contained Kill Vehicles (Trait)",
+        "description": "The Hesperis Class Battleship begins combat accompanied by a pair of Self-Contained Kill Vehicles, massive independent munitions large enough to carry their own defenses. Treat each SCKV as a Capital Ship with 10 HP, 12 Defense, and an Auxiliary slot.\n\nYou may launch one or both SCKVs during your turn as a Maneuver. Treat them as Superheavy Single Target Payload -1 attacks that deal 12 damage and can be launched at one or two targets, tracking them individually. SCKVs are also automatically launched whenever you move into range 1-0 during your turn or whenever you begin your turn there. Once this attack is started, an SCKV is considered destroyed and cannot be recalled. Whenever you take the All Ahead Full! Maneuver during your turn, each unlaunched SCKV under your control increases their damage by +2 for the rest of the battle to a maximum of +8, and you ma  also assign one unlaunched SCKV to a defensive screen as though it was a Frigate.\n\nWhenever an enemy destroys an unlaunched SCKV, that enemy’s battlegroup takes 1d6+1 Area damage. If the SCKV was destroyed while assigned to a defensive screen, the ship it was screening takes 1d6 damage and then that enemy’s battlegroup takes 2d6 Area damage instead."
+      }
+    ]
+  },
+  {
     "id": "hb_calendula",
     "name": "FKS Calendula Class Battlecruiser",
     "points": 7,
@@ -117,7 +135,7 @@
     "name": "IPS-N Eiland Class Command Carrier",
     "points": 7,
     "hp": "30",
-    "defense": "8",
+    "defense": "10",
     "tags": [ "1 Superheavy", "1 System", "3 Escort" ],
     "traits": [
       {

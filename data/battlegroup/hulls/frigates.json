@@ -23,7 +23,7 @@
     "traits": [
       {
         "name": "Flak Screen (Trait)",
-        "description": "Whenever an Ace or Wing deals damage to any Capital Ship or Escort in your battlegroup, roll 1d20. On a 10+, that Ace or Wing takes 1d3+1 damage. When the Huron Class Frigate is assigned to a Defensive Screen, this roll automatically succeeds and applies to the battlegroup it is screening for."
+        "description": "Whenever an Escort or Wing attacks or deals damage to any ship in your battlegroup, roll 1d20. On a 10+, that Escort or Wing takes 3 damage. If this damage is enough to destroy an Escort or Wing, it is destroyed before it can carry out its attack or command and its effects are negated. When the Huron Class Frigate is assigned to a Defensive Screen, this roll automatically succeeds and applies to the battlegroup it is screening for."
       }
     ]
   },
@@ -51,7 +51,7 @@
     "name": "HA Schuyler Class Frigate",
     "points": 4,
     "hp": "14",
-    "defense": "10",
+    "defense": "12",
     "tags": [ "2 Systems" ],
     "traits": [
       {
@@ -75,7 +75,7 @@
       },
       {
         "name": "Purpose-Built (Trait)",
-        "description": "The Creighton Class Frigate can only equip Superheavy weapons with the Charge tag."
+        "description": "The Creighton Class Frigate can only equip Superheavy weapons with the Charge tag. Superheavy weapons equipped to this frigate have their point costs reduced by 1 to a minimum of 0."
       }
     ]
   },
@@ -83,7 +83,7 @@
     "id": "hf_turenne",
     "name": "HA Turenne Class Frigate",
     "points": 4,
-    "hp": "12",
+    "hp": "14",
     "defense": "12",
     "tags": [ "2 Auxiliary", "1 System" ],
     "traits": [
@@ -96,7 +96,7 @@
   {
     "id": "hf_cirsium",
     "name": "FKS Cirsium Class Frigate",
-    "points": 4,
+    "points": 3,
     "hp": "14",
     "defense": "10",
     "tags": [ "1 Primary", "1 Escort" ],

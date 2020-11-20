@@ -66,7 +66,7 @@
     "id": "ws_speartip_anti_capital_torpedos",
     "name": "Speartip Anti-Capital Torpedos",
     "mount": "Superheavy",
-    "points": 3,
+    "points": 2,
     "range": "5-4",
     "damage": "25",
     "tags": [ "Single Target", "Payload -1" ],
@@ -147,7 +147,7 @@
     "range": "3-0",
     "damage": "4",
     "tags": [ "Single Target", "Interdiction" ],
-    "effect": "When you would attack with this weapon you may instead set it to track incoming threats, dealing no damage but gaining +2 Interdiction until the end of your next turn."
+    "effect": "When you would attack with this weapon, you may instead set it to track incoming threats. This deals no damage, but your battlegroup and an allied battlegroup in the same range band gain +2 Interdiction until the end of your next turn."
   },
   {
     "id": "wp_lamprey_boarding_torpedos",
@@ -192,21 +192,11 @@
     "id": "wp_legionspace_schizm",
     "name": "Legionspace Schizm",
     "mount": "Primary",
-    "points": 1,
+    "points": 2,
     "range": "4-2",
     "damage": "3",
     "tags": [ "Single Target", "Accurate", "Legionspace" ],
-    "effect": "On hit, an allied battlegroup may advance one range band or that allied battlegroup may ignore enemy effects that would force it to move until the end of their next turn."
-  },
-  {
-    "id": "wp_legionspace_still",
-    "name": "Legionspace Still",
-    "mount": "Primary",
-    "points": 1,
-    "range": "4-2",
-    "damage": "3",
-    "tags": [ "Single Target", "Accurate", "Legionspace" ],
-    "effect": "On hit, if the target’s battlegroup has any active Payload attacks, they must choose; either take +5 damage or add 1 flight counter to an active Payload attack of your choice."
+    "effect": "On hit, choose one of the following effects:\n\n● An allied battlegroup may advance one range band or that allied battlegroup may ignore all enemy effects that would force it to move until the end of their next turn.\n\n● If the target’s battlegroup has any active Payload attacks, they must choose; either take +5 damage or add 1 flight counter to an active Payload attack of your choice."
   },
   {
     "id": "wp_short_cycle_mass_accelerator_turrets",
@@ -234,7 +224,7 @@
     "mount": "Primary",
     "points": 2,
     "range": "4-3",
-    "tags": [ "Single Target", "Charge 2", "Limited 1", "Unique" ],
+    "tags": [ "Single Target", "Charge 2", "Limited 1", "Overkill", "Unique" ],
     "effect": "Skip Drones do not automatically begin removing charging counters during the Logistics Step. When you want to fire this weapon, target a Capital Ship during the Logistics Step and begin charging it. Unlike other Charge weapons, a Skip Drone must immediately be fired when fully charged, it cannot be held. Instead of attacking normally, roll 1d20. On a 10+ the drone hits, dealing 3d6 damage to the target ship and dealing 1d6 damage to all other Capital Ships and Escorts in that ship’s battlegroup. On a 9 or lower, or if your battlegroup is out of this weapon’s effective range when it finishes targeting, the drone misses its optimal delivery window, dealing 1d6 damage to the target ship only. This special attack roll cannot be modified in any way, and charging counters cannot be added to or removed from a Skip Drone by other systems or abilities."
   },
   {
@@ -257,8 +247,8 @@
     "id": "wa_messenger_lead_laser",
     "name": "Messenger Lead Laser",
     "mount": "Auxiliary",
-    "points": 1,
-    "range": "4-1",
+    "points": 0,
+    "range": "4-2",
     "effect": "This weapon does not fire alongside other weapons. Instead, whenever your battlegroup is within this weapon’s range during the Logistics Step you may choose one of your Payload attacks that has reached 0 flight counters. That Payload attack deals +1 damage for each Messenger Lead Laser equipped to your battlegroup, to a maximum of +4 damage."
   },
   {
@@ -284,6 +274,6 @@
     "mount": "Auxiliary",
     "points": 2,
     "tags": [ "Limited 2" ],
-    "effect": "When fired alongside any Primary weapon you launch a kinetic kill-cloud of projectiles that threatens enemies attempting to approach you along predicted routes. Choose your own battlegroup or an allied battlegroup in the same range band; until the end of your next turn, any Ace, Escort, or Wing that attacks or deals damage to the selected battlegroup automatically takes 1d6+1 damage each time they do so. A battlegroup can only benefit from one kill-cloud at a time."
+    "effect": "When fired alongside any Primary weapon you launch a kinetic kill-cloud of projectiles that threatens enemies attempting to approach you along predicted routes. Choose your own battlegroup or an allied battlegroup in the same range band; until the end of your next turn, any Escort or Wing that attacks or deals damage to the selected battlegroup automatically takes 1d6+1 damage each time they do so. If this damage is enough to destroy an Escort or Wing, it is destroyed before it can carry out its attack or command and its effects are negated. A battlegroup can only benefit from one kill-cloud at a time."
   }
 ]

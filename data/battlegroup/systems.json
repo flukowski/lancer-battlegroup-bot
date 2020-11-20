@@ -39,7 +39,7 @@
     "name": "Piper Drones",
     "points": 0,
     "tags": [ "Limited 1", "Unique" ],
-    "effect": "During the Logistics Step, you may add 1 flight counter to an active enemy Payload attack."
+    "effect": "During the Logistics Step, choose; you may either add 1 flight counter to an active enemy Payload attack targeting one of your ships or your battlegroup or you may redirect an active enemy Payload attack towards one of your ships or your battlegroup."
   },
   {
     "id": "fire_for_effect",
@@ -242,7 +242,7 @@
       {
         "name": "Adjust Bearing (Tactic)",
         "tags": [ "Reloading 2" ],
-        "description": "Move an allied battlegroup back or forward one range band. If you use this Tactic at range 5-4, you may also Lock On to an enemy Capital Ship or Escort."
+        "description": "Move an allied battlegroup back or forward one range band. If you use this Tactic at range 5-3, you may also Lock On to an enemy Capital Ship or Escort."
       }
     ],
     "effect": "This ship gains +1 Escort slot."

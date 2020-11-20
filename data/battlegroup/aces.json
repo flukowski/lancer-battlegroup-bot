@@ -22,7 +22,7 @@
   {
     "id": "ace_jettison_ram",
     "name": "Jettison Ram",
-    "effect": "Your Ace Squadron gains the Boarding tag and has a Tenacity of 13. Whenever a boarded ship fails a roll to repel your Ace Squadron, they take 4 damage."
+    "effect": "Your Ace Squadron gains the Boarding tag and has a Tenacity of 13. Whenever a boarded ship fails a roll to repel your Ace Squadron, they take 4 damage.  If they spend a Maneuver to repel boarders which include your Ace Squadron, they take 2 damage."
   },
   {
     "id": "ace_microburst_drives",
@@ -44,7 +44,7 @@
   {
     "id": "ace_shipkiller",
     "name": "Shipkiller",
-    "tags": [ "Tactic", "Limited 1" ],
+    "tags": [ "Maneuver", "Limited 1" ],
     "effect": "Deal 4 damage to target Capital Ship. If that ship is at half HP or less, not counting Overshield, deal 6 damage instead. If this destroys the target, you do not expend this command’s Limited use."
   },
   {
