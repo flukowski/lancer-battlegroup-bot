@@ -114,7 +114,7 @@
   {
     "id": "hb_greenland",
     "name": "IPS-N Greenland Class Battlecarrier",
-    "points": 7,
+    "points": 6,
     "hp": "30",
     "defense": "10",
     "tags": [ "1 Superheavy", "1 Primary", "3 Wing" ],
@@ -126,14 +126,14 @@
       {
         "name": "Body Blow (Maneuver)",
         "tags": [ "Limited 1" ],
-        "description": "Fire one Superheavy weapon or up to two Primary weapons. You may then command all Wings equipped to the Greenland Class Battlecarrier."
+        "description": "Repair one Wing equipped to this ship to full HP, even from 0 HP, and fire one Superheavy weapon or up to two Primary weapons. You may then command all Wings equipped to the Greenland Class Battlecarrier."
       }
     ]
   },
   {
     "id": "hb_eiland",
     "name": "IPS-N Eiland Class Command Carrier",
-    "points": 7,
+    "points": 6,
     "hp": "30",
     "defense": "10",
     "tags": [ "1 Superheavy", "1 System", "3 Escort" ],
@@ -145,7 +145,7 @@
       {
         "name": "Combat Refit (Tactic)",
         "tags": [ "Limited 1" ],
-        "description": "Repair all Escorts equipped to the Eiland Class Command Carrier to full HP, and then command up to two Escorts equipped to this ship."
+        "description": "Repair up to three Escorts equipped to your battlegroup or allied battlegroups in the same range band to full HP. One of these Escorts may be repaired even from 0 HP. Then command up to two Escorts equipped to this ship."
       }
     ]
   }

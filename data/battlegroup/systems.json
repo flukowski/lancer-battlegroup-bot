@@ -198,13 +198,13 @@
     "traits": [
       {
         "name": "Lithoscreen (Tactic)",
-        "tags": [ "Limited 2" ],
-        "description": "One Capital Ship in your battlegroup gains 5 Overshield."
+        "tags": [ "Limited 2", "Reloading 2" ],
+        "description": "One Capital Ship in your battlegroup gains 5 Overshield. The next time a hostile Capital Ship, Escort, or Wing reduces this ship to 0 Overshield during the Action Step, they take 3 damage."
       },
       {
         "name": "Slingshot (Maneuver)",
-        "tags": [ "Area Attack", "Payload", "Limited 1", "Range 3-1" ],
-        "description": "This special Maneuver lobs asteroids and debris at an enemy battlegroup of your choice, dealing 8 Damage. You may also expend Lithoscreen uses when you use this Maneuver to add +2 damage for each use expended this way."
+        "tags": [ "Single/Area Attack", "Payload", "Limited 1", "Range 3-1", "10 Single Target damage + 4 Area damage" ],
+        "description": "Your battlegroup may advance one range band forward, and then you lob a Payload of asteroids at a hostile Capital Ship of within range. Interdiction against this Payload is applied to its Area damage first. This attack is immune to hostile effects and abilities that add or remove flight counters or destroy Payloads. On impact, this Payload erupts into a dangerous cloud of debris. The next time the target battlegroup would use an ability or effect that forces you or an allied battlegroup to move, they take 2d6 Area damage and make all Single Target attack rolls with +1 Difficulty until the end of their next turn. This debris field lasts until the start of the next Logistics Step and then disperses."
       }
     ],
     "effect": "Your battlegroup gains +2 Interdiction."
@@ -216,14 +216,14 @@
     "tags": [ "Unique" ],
     "traits": [
       {
-        "name": "Shrouded Advance (Maneuver)",
-        "tags": [ "Reloading 2" ],
-        "description": "Your battlegroup may advance one range band forward, and you may fire one Primary weapon before or after moving. Gain +1d6 Interdiction and +2 Defense until the end of your next turn."
+        "name": "Whiteout (Maneuver)",
+        "tags": [ "Limited 1" ],
+        "description": "Your battlegroup may fall back or advance one range band and is then removed from play, obscured by a massive flare of thermal energy that blinds enemy sensors. While removed from play in this fashion your ships cannot be targeted by attacks or take damage, but none of their weapons, upgrades, or abilities can be used or benefitted from. You continue to remove charge and flight counters from your equipped weapons during the Logistics Step as normal, and hostile Payloads targeting any of your ships or your battlegroup while you are removed from play in this way cannot have their flight times reduced below 1 by any means. Your battlegroup reappears during the next Impact Step after all other battlegroups have chosen targets and rolled to hit, and you may then choose targets and roll to hit with any charged weapons as well. When rolling damage during the Impact Step, apply the damage from any of your Charge weapons first. If this damage is enough to destroy an hostile ship, it is destroyed before it can fire its own Charge weapons and their damage is negated. This ship then takes 1d6 damage from thermal overload that ignores Overshield and cannot be prevented in any way."
       },
       {
         "name": "Thermal Spoofing (Tactic)",
-        "tags": [ "Limited 1" ],
-        "description": "This ship gains 5 Overshield. Add 1 flight counter to any number of active enemy Payload weapons targeting your battlegroup or any of your ships."
+        "tags": [ "Limited 2", "Reloading 2" ],
+        "description": "Choose one or two of the following effects:\n\n● Clear Lock On from a Capital Ship in your battlegroup or from an allied Capital Ship in the same range band.\n\n● Add 1 flight counter to an active hostile Payload targeting your battlegroup or any of your ships.\n\n● All Single Target attacks against a Capital Ship in your battlegroup are made with +1 Difficulty until the end of your next turn."
       }
     ],
     "effect": "Whenever your battlegroup moves, either during your turn or from enemy effects and abilities, you may clear Lock On from this ship. "
@@ -235,16 +235,16 @@
     "tags": [ "Legionspace", "Unique" ],
     "traits": [
       {
-        "name": "Coordinated Impact (Maneuver)",
-        "tags": [ "Limited 1" ],
-        "description": "Add or remove 1 flight counter from up to two in-flight Payload weapons belonging to you or allied battlegroups"
+        "name": "Coordinated Impact (Tactic)",
+        "tags": [ "Limited 2", "Reloading 2" ],
+        "description": "Add or remove 1 flight counter from up to two in-flight Payload weapons belonging to you or allied battlegroups\n\nChoose two weapons belonging to you or allied battlegroups and extend their maximum and minimum range by 1 for their next attack (for example, a weapon with range 4-2 would become 5-1). This effect does not stack."
       },
       {
-        "name": "Adjust Bearing (Tactic)",
+        "name": "Adjust Bearing (Maneuver)",
         "tags": [ "Reloading 2" ],
         "description": "Move an allied battlegroup back or forward one range band. If you use this Tactic at range 5-3, you may also Lock On to an enemy Capital Ship or Escort."
       }
     ],
-    "effect": "This ship gains +1 Escort slot."
+    "effect": "When you assign Frigates to a Defensive Screen, you may assign them to allied battlegroups in the range band directly ahead of you or directly behind you."
   }
 ]
